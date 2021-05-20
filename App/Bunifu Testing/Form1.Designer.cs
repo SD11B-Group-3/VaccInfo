@@ -136,6 +136,22 @@ namespace Bunifu_Testing
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.bunifuLabel9 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
+            this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel12 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuPictureBox4 = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.bunifuSeparator3 = new Bunifu.UI.WinForms.BunifuSeparator();
+            this.bunifuCircleProgress2 = new Bunifu.UI.WinForms.BunifuCircleProgress();
+            this.bunifuLabel13 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuCircleProgress3 = new Bunifu.UI.WinForms.BunifuCircleProgress();
+            this.bunifuLabel14 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel15 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel16 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuRadialGauge1 = new Bunifu.UI.WinForms.BunifuRadialGauge();
+            this.bunifuRadialGauge2 = new Bunifu.UI.WinForms.BunifuRadialGauge();
+            this.bunifuLabel18 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel17 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel19 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel20 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -167,6 +183,7 @@ namespace Bunifu_Testing
             this.tabPage7.SuspendLayout();
             this.bunifuShadowPanel7.SuspendLayout();
             this.tabPage8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuShadowPanel1
@@ -719,11 +736,12 @@ namespace Bunifu_Testing
             this.bunifuDatePicker2.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
             this.bunifuDatePicker2.LeftTextMargin = 5;
             this.bunifuDatePicker2.Location = new System.Drawing.Point(831, 67);
+            this.bunifuDatePicker2.MinDate = new System.DateTime(2021, 5, 18, 0, 0, 0, 0);
             this.bunifuDatePicker2.MinimumSize = new System.Drawing.Size(4, 32);
             this.bunifuDatePicker2.Name = "bunifuDatePicker2";
             this.bunifuDatePicker2.Size = new System.Drawing.Size(220, 32);
             this.bunifuDatePicker2.TabIndex = 19;
-            this.bunifuDatePicker2.Value = new System.DateTime(2021, 5, 18, 2, 4, 0, 0);
+            this.bunifuDatePicker2.Value = new System.DateTime(2021, 5, 21, 0, 0, 0, 0);
             // 
             // bunifuLabel8
             // 
@@ -750,9 +768,9 @@ namespace Bunifu_Testing
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.label10.Location = new System.Drawing.Point(715, 705);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(77, 17);
+            this.label10.Size = new System.Drawing.Size(70, 17);
             this.label10.TabIndex = 17;
-            this.label10.Text = "186,000,000";
+            this.label10.Text = "70,000,000";
             // 
             // bunifuShadowPanel8
             // 
@@ -913,9 +931,9 @@ namespace Bunifu_Testing
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.label9.Location = new System.Drawing.Point(579, 705);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 17);
+            this.label9.Size = new System.Drawing.Size(63, 17);
             this.label9.TabIndex = 8;
-            this.label9.Text = "486,000";
+            this.label9.Text = "3,299,470";
             // 
             // bunifuPages2
             // 
@@ -928,10 +946,10 @@ namespace Bunifu_Testing
             this.bunifuPages2.Location = new System.Drawing.Point(-4, 527);
             this.bunifuPages2.Multiline = true;
             this.bunifuPages2.Name = "bunifuPages2";
-            this.bunifuPages2.Page = this.tabPage5;
-            this.bunifuPages2.PageIndex = 1;
-            this.bunifuPages2.PageName = "tabPage5";
-            this.bunifuPages2.PageTitle = "Astrazeneca";
+            this.bunifuPages2.Page = this.tabPage10;
+            this.bunifuPages2.PageIndex = 3;
+            this.bunifuPages2.PageName = "tabPage10";
+            this.bunifuPages2.PageTitle = "Pfizer";
             this.bunifuPages2.SelectedIndex = 0;
             this.bunifuPages2.Size = new System.Drawing.Size(556, 223);
             this.bunifuPages2.TabIndex = 9;
@@ -1329,9 +1347,9 @@ namespace Bunifu_Testing
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.label20.Location = new System.Drawing.Point(24, 107);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(61, 32);
+            this.label20.Size = new System.Drawing.Size(58, 32);
             this.label20.TabIndex = 3;
-            this.label20.Text = "20%";
+            this.label20.Text = "15%";
             // 
             // bunifuProgressBar1
             // 
@@ -1356,8 +1374,8 @@ namespace Bunifu_Testing
             this.bunifuProgressBar1.ProgressColorRight = System.Drawing.Color.Fuchsia;
             this.bunifuProgressBar1.Size = new System.Drawing.Size(497, 22);
             this.bunifuProgressBar1.TabIndex = 0;
-            this.bunifuProgressBar1.Value = 50;
-            this.bunifuProgressBar1.ValueByTransition = 50;
+            this.bunifuProgressBar1.Value = 15;
+            this.bunifuProgressBar1.ValueByTransition = 15;
             // 
             // label21
             // 
@@ -1489,11 +1507,11 @@ namespace Bunifu_Testing
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
-            this.label23.Location = new System.Drawing.Point(459, 139);
+            this.label23.Location = new System.Drawing.Point(452, 139);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(63, 17);
+            this.label23.Size = new System.Drawing.Size(70, 17);
             this.label23.TabIndex = 7;
-            this.label23.Text = "1,850,000";
+            this.label23.Text = "10,000,000";
             // 
             // label24
             // 
@@ -1502,9 +1520,9 @@ namespace Bunifu_Testing
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.label24.Location = new System.Drawing.Point(27, 139);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(53, 17);
+            this.label24.Size = new System.Drawing.Size(46, 17);
             this.label24.TabIndex = 6;
-            this.label24.Text = "486,000";
+            this.label24.Text = "30,000";
             // 
             // label25
             // 
@@ -1535,9 +1553,9 @@ namespace Bunifu_Testing
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.label27.Location = new System.Drawing.Point(24, 107);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(61, 32);
+            this.label27.Size = new System.Drawing.Size(67, 32);
             this.label27.TabIndex = 3;
-            this.label27.Text = "20%";
+            this.label27.Text = "0.3%";
             // 
             // bunifuProgressBar4
             // 
@@ -1562,8 +1580,8 @@ namespace Bunifu_Testing
             this.bunifuProgressBar4.ProgressColorRight = System.Drawing.Color.Fuchsia;
             this.bunifuProgressBar4.Size = new System.Drawing.Size(497, 22);
             this.bunifuProgressBar4.TabIndex = 0;
-            this.bunifuProgressBar4.Value = 50;
-            this.bunifuProgressBar4.ValueByTransition = 50;
+            this.bunifuProgressBar4.Value = 4;
+            this.bunifuProgressBar4.ValueByTransition = 4;
             // 
             // label28
             // 
@@ -1695,11 +1713,11 @@ namespace Bunifu_Testing
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
-            this.label30.Location = new System.Drawing.Point(459, 139);
+            this.label30.Location = new System.Drawing.Point(452, 139);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(63, 17);
+            this.label30.Size = new System.Drawing.Size(70, 17);
             this.label30.TabIndex = 7;
-            this.label30.Text = "1,850,000";
+            this.label30.Text = "15,000,000";
             // 
             // label31
             // 
@@ -1710,7 +1728,7 @@ namespace Bunifu_Testing
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(53, 17);
             this.label31.TabIndex = 6;
-            this.label31.Text = "486,000";
+            this.label31.Text = "193,050";
             // 
             // label32
             // 
@@ -1741,9 +1759,9 @@ namespace Bunifu_Testing
             this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.label34.Location = new System.Drawing.Point(24, 107);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(61, 32);
+            this.label34.Size = new System.Drawing.Size(45, 32);
             this.label34.TabIndex = 3;
-            this.label34.Text = "20%";
+            this.label34.Text = "1%";
             // 
             // bunifuProgressBar5
             // 
@@ -1765,11 +1783,11 @@ namespace Bunifu_Testing
             this.bunifuProgressBar5.Orientation = System.Windows.Forms.Orientation.Horizontal;
             this.bunifuProgressBar5.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
             this.bunifuProgressBar5.ProgressColorLeft = System.Drawing.Color.DodgerBlue;
-            this.bunifuProgressBar5.ProgressColorRight = System.Drawing.Color.Fuchsia;
+            this.bunifuProgressBar5.ProgressColorRight = System.Drawing.Color.DodgerBlue;
             this.bunifuProgressBar5.Size = new System.Drawing.Size(497, 22);
             this.bunifuProgressBar5.TabIndex = 0;
-            this.bunifuProgressBar5.Value = 50;
-            this.bunifuProgressBar5.ValueByTransition = 50;
+            this.bunifuProgressBar5.Value = 2;
+            this.bunifuProgressBar5.ValueByTransition = 2;
             // 
             // label35
             // 
@@ -1862,10 +1880,10 @@ namespace Bunifu_Testing
             this.bunifuCircleProgress1.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
             this.bunifuCircleProgress1.SuperScriptText = "";
             this.bunifuCircleProgress1.TabIndex = 16;
-            this.bunifuCircleProgress1.Text = "30";
+            this.bunifuCircleProgress1.Text = "2";
             this.bunifuCircleProgress1.TextMargin = new System.Windows.Forms.Padding(0);
-            this.bunifuCircleProgress1.Value = 30;
-            this.bunifuCircleProgress1.ValueByTransition = 30;
+            this.bunifuCircleProgress1.Value = 2;
+            this.bunifuCircleProgress1.ValueByTransition = 2;
             this.bunifuCircleProgress1.ValueMargin = new System.Windows.Forms.Padding(0);
             this.bunifuCircleProgress1.ProgressChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuCircleProgress.ProgressChangedEventArgs>(this.bunifuCircleProgress1_ProgressChanged);
             // 
@@ -2220,6 +2238,22 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel7.BorderRadius = 1;
             this.bunifuShadowPanel7.BorderThickness = 1;
             this.bunifuShadowPanel7.CausesValidation = false;
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel20);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel19);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel18);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel17);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuRadialGauge2);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuRadialGauge1);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel16);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel15);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel14);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuCircleProgress3);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel13);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuCircleProgress2);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuSeparator3);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuPictureBox4);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel12);
+            this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel11);
             this.bunifuShadowPanel7.Controls.Add(this.bunifuProgressBar3);
             this.bunifuShadowPanel7.Controls.Add(this.bunifuLabel10);
             this.bunifuShadowPanel7.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
@@ -2249,7 +2283,7 @@ namespace Bunifu_Testing
             this.bunifuProgressBar3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
             this.bunifuProgressBar3.BorderRadius = 9;
             this.bunifuProgressBar3.BorderThickness = 1;
-            this.bunifuProgressBar3.Location = new System.Drawing.Point(49, 230);
+            this.bunifuProgressBar3.Location = new System.Drawing.Point(49, 283);
             this.bunifuProgressBar3.Maximum = 100;
             this.bunifuProgressBar3.MaximumValue = 100;
             this.bunifuProgressBar3.Minimum = 0;
@@ -2259,7 +2293,7 @@ namespace Bunifu_Testing
             this.bunifuProgressBar3.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
             this.bunifuProgressBar3.ProgressColorLeft = System.Drawing.Color.DodgerBlue;
             this.bunifuProgressBar3.ProgressColorRight = System.Drawing.Color.Fuchsia;
-            this.bunifuProgressBar3.Size = new System.Drawing.Size(497, 22);
+            this.bunifuProgressBar3.Size = new System.Drawing.Size(510, 25);
             this.bunifuProgressBar3.TabIndex = 1;
             this.bunifuProgressBar3.Value = 50;
             this.bunifuProgressBar3.ValueByTransition = 50;
@@ -2272,7 +2306,7 @@ namespace Bunifu_Testing
             this.bunifuLabel10.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel10.Font = new System.Drawing.Font("Bebas Neue", 99.74999F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel10.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.bunifuLabel10.Location = new System.Drawing.Point(49, 64);
+            this.bunifuLabel10.Location = new System.Drawing.Point(49, 96);
             this.bunifuLabel10.Name = "bunifuLabel10";
             this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel10.Size = new System.Drawing.Size(423, 160);
@@ -2352,6 +2386,344 @@ namespace Bunifu_Testing
             this.bunifuFormDock1.TitleBarOptions.UseBackColorOnDockingIndicators = false;
             this.bunifuFormDock1.FormDragging += new System.EventHandler<Bunifu.UI.WinForms.BunifuFormDock.FormDraggingEventArgs>(this.bunifuFormDock1_FormDragging);
             // 
+            // bunifuLabel11
+            // 
+            this.bunifuLabel11.AllowParentOverrides = false;
+            this.bunifuLabel11.AutoEllipsis = false;
+            this.bunifuLabel11.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel11.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel11.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bunifuLabel11.Location = new System.Drawing.Point(49, 43);
+            this.bunifuLabel11.Name = "bunifuLabel11";
+            this.bunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel11.Size = new System.Drawing.Size(225, 47);
+            this.bunifuLabel11.TabIndex = 2;
+            this.bunifuLabel11.Text = "Metro Manila";
+            this.bunifuLabel11.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel11.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel12
+            // 
+            this.bunifuLabel12.AllowParentOverrides = false;
+            this.bunifuLabel12.AutoEllipsis = false;
+            this.bunifuLabel12.CursorType = null;
+            this.bunifuLabel12.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel12.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bunifuLabel12.Location = new System.Drawing.Point(49, 247);
+            this.bunifuLabel12.Name = "bunifuLabel12";
+            this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel12.Size = new System.Drawing.Size(278, 30);
+            this.bunifuLabel12.TabIndex = 3;
+            this.bunifuLabel12.Text = "Doses received by the region";
+            this.bunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuPictureBox4
+            // 
+            this.bunifuPictureBox4.AllowFocused = false;
+            this.bunifuPictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuPictureBox4.AutoSizeHeight = true;
+            this.bunifuPictureBox4.BorderRadius = 29;
+            this.bunifuPictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox4.Image")));
+            this.bunifuPictureBox4.IsCircle = true;
+            this.bunifuPictureBox4.Location = new System.Drawing.Point(492, 70);
+            this.bunifuPictureBox4.Name = "bunifuPictureBox4";
+            this.bunifuPictureBox4.Size = new System.Drawing.Size(58, 58);
+            this.bunifuPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuPictureBox4.TabIndex = 4;
+            this.bunifuPictureBox4.TabStop = false;
+            this.bunifuPictureBox4.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            // 
+            // bunifuSeparator3
+            // 
+            this.bunifuSeparator3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator3.BackgroundImage")));
+            this.bunifuSeparator3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuSeparator3.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat;
+            this.bunifuSeparator3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.bunifuSeparator3.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
+            this.bunifuSeparator3.LineThickness = 2;
+            this.bunifuSeparator3.Location = new System.Drawing.Point(568, 28);
+            this.bunifuSeparator3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.bunifuSeparator3.Name = "bunifuSeparator3";
+            this.bunifuSeparator3.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Vertical;
+            this.bunifuSeparator3.Size = new System.Drawing.Size(15, 521);
+            this.bunifuSeparator3.TabIndex = 6;
+            // 
+            // bunifuCircleProgress2
+            // 
+            this.bunifuCircleProgress2.Animated = true;
+            this.bunifuCircleProgress2.AnimationInterval = 1;
+            this.bunifuCircleProgress2.AnimationSpeed = 1;
+            this.bunifuCircleProgress2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuCircleProgress2.CircleMargin = 10;
+            this.bunifuCircleProgress2.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCircleProgress2.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bunifuCircleProgress2.IsPercentage = false;
+            this.bunifuCircleProgress2.LineProgressThickness = 15;
+            this.bunifuCircleProgress2.LineThickness = 15;
+            this.bunifuCircleProgress2.Location = new System.Drawing.Point(49, 350);
+            this.bunifuCircleProgress2.Name = "bunifuCircleProgress2";
+            this.bunifuCircleProgress2.ProgressAnimationSpeed = 200;
+            this.bunifuCircleProgress2.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.bunifuCircleProgress2.ProgressColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuCircleProgress2.ProgressColor2 = System.Drawing.Color.Fuchsia;
+            this.bunifuCircleProgress2.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.bunifuCircleProgress2.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Gradient;
+            this.bunifuCircleProgress2.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.bunifuCircleProgress2.SecondaryFont = new System.Drawing.Font("Overpass Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCircleProgress2.Size = new System.Drawing.Size(184, 184);
+            this.bunifuCircleProgress2.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.bunifuCircleProgress2.SubScriptMargin = new System.Windows.Forms.Padding(5, -25, 0, 0);
+            this.bunifuCircleProgress2.SubScriptText = "%";
+            this.bunifuCircleProgress2.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.bunifuCircleProgress2.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
+            this.bunifuCircleProgress2.SuperScriptText = "";
+            this.bunifuCircleProgress2.TabIndex = 17;
+            this.bunifuCircleProgress2.Text = "7";
+            this.bunifuCircleProgress2.TextMargin = new System.Windows.Forms.Padding(0);
+            this.bunifuCircleProgress2.Value = 7;
+            this.bunifuCircleProgress2.ValueByTransition = 7;
+            this.bunifuCircleProgress2.ValueMargin = new System.Windows.Forms.Padding(0);
+            // 
+            // bunifuLabel13
+            // 
+            this.bunifuLabel13.AllowParentOverrides = false;
+            this.bunifuLabel13.AutoEllipsis = false;
+            this.bunifuLabel13.CursorType = null;
+            this.bunifuLabel13.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.bunifuLabel13.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bunifuLabel13.Location = new System.Drawing.Point(49, 314);
+            this.bunifuLabel13.Name = "bunifuLabel13";
+            this.bunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel13.Size = new System.Drawing.Size(264, 30);
+            this.bunifuLabel13.TabIndex = 18;
+            this.bunifuLabel13.Text = "as % of regional population";
+            this.bunifuLabel13.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel13.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuCircleProgress3
+            // 
+            this.bunifuCircleProgress3.Animated = true;
+            this.bunifuCircleProgress3.AnimationInterval = 1;
+            this.bunifuCircleProgress3.AnimationSpeed = 1;
+            this.bunifuCircleProgress3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuCircleProgress3.CircleMargin = 10;
+            this.bunifuCircleProgress3.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCircleProgress3.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bunifuCircleProgress3.IsPercentage = false;
+            this.bunifuCircleProgress3.LineProgressThickness = 15;
+            this.bunifuCircleProgress3.LineThickness = 15;
+            this.bunifuCircleProgress3.Location = new System.Drawing.Point(319, 350);
+            this.bunifuCircleProgress3.Name = "bunifuCircleProgress3";
+            this.bunifuCircleProgress3.ProgressAnimationSpeed = 200;
+            this.bunifuCircleProgress3.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.bunifuCircleProgress3.ProgressColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuCircleProgress3.ProgressColor2 = System.Drawing.Color.Fuchsia;
+            this.bunifuCircleProgress3.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.bunifuCircleProgress3.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Gradient;
+            this.bunifuCircleProgress3.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.bunifuCircleProgress3.SecondaryFont = new System.Drawing.Font("Overpass Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCircleProgress3.Size = new System.Drawing.Size(184, 184);
+            this.bunifuCircleProgress3.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.bunifuCircleProgress3.SubScriptMargin = new System.Windows.Forms.Padding(5, -25, 0, 0);
+            this.bunifuCircleProgress3.SubScriptText = "%";
+            this.bunifuCircleProgress3.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.bunifuCircleProgress3.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
+            this.bunifuCircleProgress3.SuperScriptText = "";
+            this.bunifuCircleProgress3.TabIndex = 19;
+            this.bunifuCircleProgress3.Text = "3";
+            this.bunifuCircleProgress3.TextMargin = new System.Windows.Forms.Padding(0);
+            this.bunifuCircleProgress3.Value = 3;
+            this.bunifuCircleProgress3.ValueByTransition = 3;
+            this.bunifuCircleProgress3.ValueMargin = new System.Windows.Forms.Padding(0);
+            // 
+            // bunifuLabel14
+            // 
+            this.bunifuLabel14.AllowParentOverrides = false;
+            this.bunifuLabel14.AutoEllipsis = false;
+            this.bunifuLabel14.CursorType = null;
+            this.bunifuLabel14.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel14.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bunifuLabel14.Location = new System.Drawing.Point(105, 540);
+            this.bunifuLabel14.Name = "bunifuLabel14";
+            this.bunifuLabel14.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel14.Size = new System.Drawing.Size(71, 25);
+            this.bunifuLabel14.TabIndex = 20;
+            this.bunifuLabel14.Text = "1st Dose";
+            this.bunifuLabel14.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel14.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel15
+            // 
+            this.bunifuLabel15.AllowParentOverrides = false;
+            this.bunifuLabel15.AutoEllipsis = false;
+            this.bunifuLabel15.CursorType = null;
+            this.bunifuLabel15.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel15.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bunifuLabel15.Location = new System.Drawing.Point(377, 540);
+            this.bunifuLabel15.Name = "bunifuLabel15";
+            this.bunifuLabel15.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel15.Size = new System.Drawing.Size(81, 25);
+            this.bunifuLabel15.TabIndex = 21;
+            this.bunifuLabel15.Text = "2nd Dose";
+            this.bunifuLabel15.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel15.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel16
+            // 
+            this.bunifuLabel16.AllowParentOverrides = false;
+            this.bunifuLabel16.AutoEllipsis = false;
+            this.bunifuLabel16.CursorType = null;
+            this.bunifuLabel16.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.bunifuLabel16.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bunifuLabel16.Location = new System.Drawing.Point(591, 34);
+            this.bunifuLabel16.Name = "bunifuLabel16";
+            this.bunifuLabel16.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel16.Size = new System.Drawing.Size(350, 30);
+            this.bunifuLabel16.TabIndex = 22;
+            this.bunifuLabel16.Text = "as % of doses allocated to the region";
+            this.bunifuLabel16.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel16.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuRadialGauge1
+            // 
+            this.bunifuRadialGauge1.AutoGenerateProgressColorWhenHigh = true;
+            this.bunifuRadialGauge1.AutoGenerateProgressColorWhenLow = false;
+            this.bunifuRadialGauge1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRadialGauge1.Font = new System.Drawing.Font("Overpass SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuRadialGauge1.LighteningFactor = 70;
+            this.bunifuRadialGauge1.Location = new System.Drawing.Point(675, 76);
+            this.bunifuRadialGauge1.Margin = new System.Windows.Forms.Padding(7, 9, 7, 9);
+            this.bunifuRadialGauge1.Maximum = 100;
+            this.bunifuRadialGauge1.Minimum = 0;
+            this.bunifuRadialGauge1.Name = "bunifuRadialGauge1";
+            this.bunifuRadialGauge1.Prefix = "";
+            this.bunifuRadialGauge1.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.bunifuRadialGauge1.ProgressBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.bunifuRadialGauge1.ProgressCap = Bunifu.UI.WinForms.BunifuRadialGauge.CapStyles.Round;
+            this.bunifuRadialGauge1.ProgressColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuRadialGauge1.ProgressColor1 = System.Drawing.Color.DodgerBlue;
+            this.bunifuRadialGauge1.ProgressColor2 = System.Drawing.Color.Crimson;
+            this.bunifuRadialGauge1.ProgressColorHigh = System.Drawing.Color.Crimson;
+            this.bunifuRadialGauge1.ProgressColorLow = System.Drawing.Color.DodgerBlue;
+            this.bunifuRadialGauge1.ProgressHighValueMark = 70;
+            this.bunifuRadialGauge1.RangeEnd = 100;
+            this.bunifuRadialGauge1.RangeLabelsColor = System.Drawing.Color.Silver;
+            this.bunifuRadialGauge1.RangeLabelsFont = new System.Drawing.Font("Segoe UI", 8F);
+            this.bunifuRadialGauge1.RangeStart = 0;
+            this.bunifuRadialGauge1.ShowRangeLabels = false;
+            this.bunifuRadialGauge1.ShowValueLabel = true;
+            this.bunifuRadialGauge1.Size = new System.Drawing.Size(266, 217);
+            this.bunifuRadialGauge1.Suffix = "%";
+            this.bunifuRadialGauge1.TabIndex = 25;
+            this.bunifuRadialGauge1.Thickness = 22;
+            this.bunifuRadialGauge1.Value = 60;
+            this.bunifuRadialGauge1.ValueByTransition = 60;
+            this.bunifuRadialGauge1.ValueLabelColor = System.Drawing.Color.Silver;
+            this.bunifuRadialGauge1.WarningMark = 70;
+            // 
+            // bunifuRadialGauge2
+            // 
+            this.bunifuRadialGauge2.AutoGenerateProgressColorWhenHigh = true;
+            this.bunifuRadialGauge2.AutoGenerateProgressColorWhenLow = false;
+            this.bunifuRadialGauge2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRadialGauge2.Font = new System.Drawing.Font("Overpass SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuRadialGauge2.LighteningFactor = 70;
+            this.bunifuRadialGauge2.Location = new System.Drawing.Point(675, 332);
+            this.bunifuRadialGauge2.Margin = new System.Windows.Forms.Padding(7, 9, 7, 9);
+            this.bunifuRadialGauge2.Maximum = 100;
+            this.bunifuRadialGauge2.Minimum = 0;
+            this.bunifuRadialGauge2.Name = "bunifuRadialGauge2";
+            this.bunifuRadialGauge2.Prefix = "";
+            this.bunifuRadialGauge2.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.bunifuRadialGauge2.ProgressBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.bunifuRadialGauge2.ProgressCap = Bunifu.UI.WinForms.BunifuRadialGauge.CapStyles.Round;
+            this.bunifuRadialGauge2.ProgressColor = System.Drawing.Color.DarkViolet;
+            this.bunifuRadialGauge2.ProgressColor1 = System.Drawing.Color.DarkViolet;
+            this.bunifuRadialGauge2.ProgressColor2 = System.Drawing.Color.Crimson;
+            this.bunifuRadialGauge2.ProgressColorHigh = System.Drawing.Color.Crimson;
+            this.bunifuRadialGauge2.ProgressColorLow = System.Drawing.Color.DarkViolet;
+            this.bunifuRadialGauge2.ProgressHighValueMark = 70;
+            this.bunifuRadialGauge2.RangeEnd = 100;
+            this.bunifuRadialGauge2.RangeLabelsColor = System.Drawing.Color.Silver;
+            this.bunifuRadialGauge2.RangeLabelsFont = new System.Drawing.Font("Segoe UI", 8F);
+            this.bunifuRadialGauge2.RangeStart = 0;
+            this.bunifuRadialGauge2.ShowRangeLabels = false;
+            this.bunifuRadialGauge2.ShowValueLabel = true;
+            this.bunifuRadialGauge2.Size = new System.Drawing.Size(266, 217);
+            this.bunifuRadialGauge2.Suffix = "%";
+            this.bunifuRadialGauge2.TabIndex = 26;
+            this.bunifuRadialGauge2.Thickness = 22;
+            this.bunifuRadialGauge2.Value = 25;
+            this.bunifuRadialGauge2.ValueByTransition = 25;
+            this.bunifuRadialGauge2.ValueLabelColor = System.Drawing.Color.Silver;
+            this.bunifuRadialGauge2.WarningMark = 70;
+            // 
+            // bunifuLabel18
+            // 
+            this.bunifuLabel18.AllowParentOverrides = false;
+            this.bunifuLabel18.AutoEllipsis = false;
+            this.bunifuLabel18.CursorType = null;
+            this.bunifuLabel18.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel18.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bunifuLabel18.Location = new System.Drawing.Point(735, 524);
+            this.bunifuLabel18.Name = "bunifuLabel18";
+            this.bunifuLabel18.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel18.Size = new System.Drawing.Size(160, 25);
+            this.bunifuLabel18.TabIndex = 28;
+            this.bunifuLabel18.Text = "of 1,555,445 doses";
+            this.bunifuLabel18.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel18.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel17
+            // 
+            this.bunifuLabel17.AllowParentOverrides = false;
+            this.bunifuLabel17.AutoEllipsis = false;
+            this.bunifuLabel17.CursorType = null;
+            this.bunifuLabel17.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel17.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bunifuLabel17.Location = new System.Drawing.Point(735, 268);
+            this.bunifuLabel17.Name = "bunifuLabel17";
+            this.bunifuLabel17.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel17.Size = new System.Drawing.Size(160, 25);
+            this.bunifuLabel17.TabIndex = 27;
+            this.bunifuLabel17.Text = "of 1,555,445 doses";
+            this.bunifuLabel17.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel17.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel19
+            // 
+            this.bunifuLabel19.AllowParentOverrides = false;
+            this.bunifuLabel19.AutoEllipsis = false;
+            this.bunifuLabel19.CursorType = null;
+            this.bunifuLabel19.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel19.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bunifuLabel19.Location = new System.Drawing.Point(774, 192);
+            this.bunifuLabel19.Name = "bunifuLabel19";
+            this.bunifuLabel19.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel19.Size = new System.Drawing.Size(71, 25);
+            this.bunifuLabel19.TabIndex = 29;
+            this.bunifuLabel19.Text = "1st Dose";
+            this.bunifuLabel19.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel19.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel20
+            // 
+            this.bunifuLabel20.AllowParentOverrides = false;
+            this.bunifuLabel20.AutoEllipsis = false;
+            this.bunifuLabel20.CursorType = null;
+            this.bunifuLabel20.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel20.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bunifuLabel20.Location = new System.Drawing.Point(770, 446);
+            this.bunifuLabel20.Name = "bunifuLabel20";
+            this.bunifuLabel20.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel20.Size = new System.Drawing.Size(81, 25);
+            this.bunifuLabel20.TabIndex = 30;
+            this.bunifuLabel20.Text = "2nd Dose";
+            this.bunifuLabel20.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel20.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2409,6 +2781,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel7.PerformLayout();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2515,6 +2888,22 @@ namespace Bunifu_Testing
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel15;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel14;
+        private Bunifu.UI.WinForms.BunifuCircleProgress bunifuCircleProgress3;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel13;
+        private Bunifu.UI.WinForms.BunifuCircleProgress bunifuCircleProgress2;
+        private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator3;
+        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox4;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel12;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel11;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel20;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel19;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel18;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel17;
+        private Bunifu.UI.WinForms.BunifuRadialGauge bunifuRadialGauge2;
+        private Bunifu.UI.WinForms.BunifuRadialGauge bunifuRadialGauge1;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel16;
     }
 }
 

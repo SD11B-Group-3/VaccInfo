@@ -345,3 +345,32 @@ C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\obj\Debug\Bunifu Test
 C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\obj\Debug\Bunifu Testing.csproj.CopyComplete
 C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\obj\Debug\Bunifu Testing.exe
 C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\obj\Debug\Bunifu Testing.pdb
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Grid.Base.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Grid.Windows.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Linq.Base.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.PivotAnalysis.Base.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.PivotChart.Windows.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Shared.Windows.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.SpellChecker.Base.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Tools.Base.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Tools.Windows.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\EnvDTE.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\stdole.dll
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Grid.Base.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Grid.Windows.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Linq.Base.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.PivotAnalysis.Base.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.PivotChart.Windows.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Shared.Windows.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.SpellChecker.Base.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Tools.Base.xml
+C:\Users\acer\Documents\GitHub\VaccInfo\App\Bunifu Testing\bin\Debug\Syncfusion.Tools.Windows.xml
