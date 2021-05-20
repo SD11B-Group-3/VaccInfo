@@ -61,8 +61,8 @@ namespace Bunifu_Testing
             this.bunifuPages2 = new Bunifu.UI.WinForms.BunifuPages();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.bunifuShadowPanel9 = new Bunifu.UI.WinForms.BunifuShadowPanel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuDropdown1 = new Bunifu.UI.WinForms.BunifuDropdown();
-            this.bunifuPictureBox4 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -85,8 +85,8 @@ namespace Bunifu_Testing
             this.label21 = new System.Windows.Forms.Label();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.bunifuShadowPanel11 = new Bunifu.UI.WinForms.BunifuShadowPanel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.bunifuDropdown3 = new Bunifu.UI.WinForms.BunifuDropdown();
-            this.bunifuPictureBox6 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
@@ -98,7 +98,7 @@ namespace Bunifu_Testing
             this.tabPage10 = new System.Windows.Forms.TabPage();
             this.bunifuShadowPanel12 = new Bunifu.UI.WinForms.BunifuShadowPanel();
             this.bunifuDropdown4 = new Bunifu.UI.WinForms.BunifuDropdown();
-            this.bunifuPictureBox7 = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
@@ -146,16 +146,16 @@ namespace Bunifu_Testing
             this.bunifuPages2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.bunifuShadowPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage5.SuspendLayout();
             this.bunifuShadowPanel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage9.SuspendLayout();
             this.bunifuShadowPanel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPage10.SuspendLayout();
             this.bunifuShadowPanel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.bunifuShadowPanel6.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.bunifuShadowPanel4.SuspendLayout();
@@ -935,7 +935,7 @@ namespace Bunifu_Testing
             this.bunifuPages2.SelectedIndex = 0;
             this.bunifuPages2.Size = new System.Drawing.Size(556, 223);
             this.bunifuPages2.TabIndex = 9;
-            animation1.AnimateOnlyDifferences = false;
+            animation1.AnimateOnlyDifferences = true;
             animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
             animation1.LeafCoeff = 0F;
             animation1.MaxTime = 1F;
@@ -943,7 +943,7 @@ namespace Bunifu_Testing
             animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
             animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
             animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
             animation1.RotateCoeff = 0F;
             animation1.RotateLimit = 0F;
             animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
@@ -951,7 +951,7 @@ namespace Bunifu_Testing
             animation1.TimeCoeff = 0F;
             animation1.TransparencyCoeff = 0F;
             this.bunifuPages2.Transition = animation1;
-            this.bunifuPages2.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
+            this.bunifuPages2.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.VertBlind;
             // 
             // tabPage4
             // 
@@ -973,8 +973,8 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel9.BorderRadius = 1;
             this.bunifuShadowPanel9.BorderThickness = 1;
             this.bunifuShadowPanel9.CausesValidation = false;
+            this.bunifuShadowPanel9.Controls.Add(this.pictureBox2);
             this.bunifuShadowPanel9.Controls.Add(this.bunifuDropdown1);
-            this.bunifuShadowPanel9.Controls.Add(this.bunifuPictureBox4);
             this.bunifuShadowPanel9.Controls.Add(this.label11);
             this.bunifuShadowPanel9.Controls.Add(this.label6);
             this.bunifuShadowPanel9.Controls.Add(this.label5);
@@ -997,6 +997,16 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel9.Size = new System.Drawing.Size(540, 184);
             this.bunifuShadowPanel9.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel9.TabIndex = 8;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(120, 62);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
             // 
             // bunifuDropdown1
             // 
@@ -1046,22 +1056,6 @@ namespace Bunifu_Testing
             this.bunifuDropdown1.TextLeftMargin = 5;
             this.bunifuDropdown1.SelectedIndexChanged += new System.EventHandler(this.bunifuDropdown1_SelectedIndexChanged);
             // 
-            // bunifuPictureBox4
-            // 
-            this.bunifuPictureBox4.AllowFocused = false;
-            this.bunifuPictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuPictureBox4.AutoSizeHeight = true;
-            this.bunifuPictureBox4.BorderRadius = 50;
-            this.bunifuPictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox4.Image")));
-            this.bunifuPictureBox4.IsCircle = false;
-            this.bunifuPictureBox4.Location = new System.Drawing.Point(120, 24);
-            this.bunifuPictureBox4.Name = "bunifuPictureBox4";
-            this.bunifuPictureBox4.Size = new System.Drawing.Size(100, 100);
-            this.bunifuPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuPictureBox4.TabIndex = 9;
-            this.bunifuPictureBox4.TabStop = false;
-            this.bunifuPictureBox4.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -1079,11 +1073,11 @@ namespace Bunifu_Testing
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
-            this.label6.Location = new System.Drawing.Point(459, 139);
+            this.label6.Location = new System.Drawing.Point(452, 139);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 17);
+            this.label6.Size = new System.Drawing.Size(70, 17);
             this.label6.TabIndex = 7;
-            this.label6.Text = "1,850,000";
+            this.label6.Text = "25,000,000";
             // 
             // label5
             // 
@@ -1092,9 +1086,9 @@ namespace Bunifu_Testing
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.label5.Location = new System.Drawing.Point(27, 139);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 17);
+            this.label5.Size = new System.Drawing.Size(63, 17);
             this.label5.TabIndex = 6;
-            this.label5.Text = "486,000";
+            this.label5.Text = "5,000,000";
             // 
             // label4
             // 
@@ -1154,8 +1148,8 @@ namespace Bunifu_Testing
             this.bunifuProgressBar2.ProgressColorRight = System.Drawing.Color.Fuchsia;
             this.bunifuProgressBar2.Size = new System.Drawing.Size(497, 22);
             this.bunifuProgressBar2.TabIndex = 0;
-            this.bunifuProgressBar2.Value = 50;
-            this.bunifuProgressBar2.ValueByTransition = 50;
+            this.bunifuProgressBar2.Value = 20;
+            this.bunifuProgressBar2.ValueByTransition = 20;
             this.bunifuProgressBar2.ProgressChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuProgressBar.ProgressChangedEventArgs>(this.bunifuProgressBar2_ProgressChanged);
             // 
             // label2
@@ -1266,9 +1260,9 @@ namespace Bunifu_Testing
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(155, 57);
+            this.pictureBox1.Location = new System.Drawing.Point(154, 64);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 37);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
@@ -1289,11 +1283,11 @@ namespace Bunifu_Testing
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
-            this.label13.Location = new System.Drawing.Point(459, 139);
+            this.label13.Location = new System.Drawing.Point(452, 139);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(63, 17);
+            this.label13.Size = new System.Drawing.Size(70, 17);
             this.label13.TabIndex = 7;
-            this.label13.Text = "1,850,000";
+            this.label13.Text = "17,000,000";
             // 
             // label14
             // 
@@ -1302,9 +1296,9 @@ namespace Bunifu_Testing
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.label14.Location = new System.Drawing.Point(27, 139);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(53, 17);
+            this.label14.Size = new System.Drawing.Size(63, 17);
             this.label14.TabIndex = 6;
-            this.label14.Text = "486,000";
+            this.label14.Text = "2,560,000";
             // 
             // label15
             // 
@@ -1396,8 +1390,8 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel11.BorderRadius = 1;
             this.bunifuShadowPanel11.BorderThickness = 1;
             this.bunifuShadowPanel11.CausesValidation = false;
+            this.bunifuShadowPanel11.Controls.Add(this.pictureBox3);
             this.bunifuShadowPanel11.Controls.Add(this.bunifuDropdown3);
-            this.bunifuShadowPanel11.Controls.Add(this.bunifuPictureBox6);
             this.bunifuShadowPanel11.Controls.Add(this.label22);
             this.bunifuShadowPanel11.Controls.Add(this.label23);
             this.bunifuShadowPanel11.Controls.Add(this.label24);
@@ -1420,6 +1414,16 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel11.Size = new System.Drawing.Size(540, 184);
             this.bunifuShadowPanel11.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel11.TabIndex = 8;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(141, 62);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
             // 
             // bunifuDropdown3
             // 
@@ -1468,22 +1472,6 @@ namespace Bunifu_Testing
             this.bunifuDropdown3.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
             this.bunifuDropdown3.TextLeftMargin = 5;
             this.bunifuDropdown3.SelectedIndexChanged += new System.EventHandler(this.bunifuDropdown3_SelectedIndexChanged);
-            // 
-            // bunifuPictureBox6
-            // 
-            this.bunifuPictureBox6.AllowFocused = false;
-            this.bunifuPictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuPictureBox6.AutoSizeHeight = true;
-            this.bunifuPictureBox6.BorderRadius = 50;
-            this.bunifuPictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox6.Image")));
-            this.bunifuPictureBox6.IsCircle = false;
-            this.bunifuPictureBox6.Location = new System.Drawing.Point(141, 42);
-            this.bunifuPictureBox6.Name = "bunifuPictureBox6";
-            this.bunifuPictureBox6.Size = new System.Drawing.Size(100, 100);
-            this.bunifuPictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuPictureBox6.TabIndex = 10;
-            this.bunifuPictureBox6.TabStop = false;
-            this.bunifuPictureBox6.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
             // 
             // label22
             // 
@@ -1609,7 +1597,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel12.BorderThickness = 1;
             this.bunifuShadowPanel12.CausesValidation = false;
             this.bunifuShadowPanel12.Controls.Add(this.bunifuDropdown4);
-            this.bunifuShadowPanel12.Controls.Add(this.bunifuPictureBox7);
+            this.bunifuShadowPanel12.Controls.Add(this.pictureBox4);
             this.bunifuShadowPanel12.Controls.Add(this.label29);
             this.bunifuShadowPanel12.Controls.Add(this.label30);
             this.bunifuShadowPanel12.Controls.Add(this.label31);
@@ -1681,21 +1669,15 @@ namespace Bunifu_Testing
             this.bunifuDropdown4.TextLeftMargin = 5;
             this.bunifuDropdown4.SelectedIndexChanged += new System.EventHandler(this.bunifuDropdown4_SelectedIndexChanged);
             // 
-            // bunifuPictureBox7
+            // pictureBox4
             // 
-            this.bunifuPictureBox7.AllowFocused = false;
-            this.bunifuPictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuPictureBox7.AutoSizeHeight = true;
-            this.bunifuPictureBox7.BorderRadius = 0;
-            this.bunifuPictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox7.Image")));
-            this.bunifuPictureBox7.IsCircle = false;
-            this.bunifuPictureBox7.Location = new System.Drawing.Point(96, 55);
-            this.bunifuPictureBox7.Name = "bunifuPictureBox7";
-            this.bunifuPictureBox7.Size = new System.Drawing.Size(61, 61);
-            this.bunifuPictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuPictureBox7.TabIndex = 10;
-            this.bunifuPictureBox7.TabStop = false;
-            this.bunifuPictureBox7.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(87, 66);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(90, 39);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
             // 
             // label29
             // 
@@ -2396,7 +2378,7 @@ namespace Bunifu_Testing
             this.tabPage4.ResumeLayout(false);
             this.bunifuShadowPanel9.ResumeLayout(false);
             this.bunifuShadowPanel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.bunifuShadowPanel10.ResumeLayout(false);
             this.bunifuShadowPanel10.PerformLayout();
@@ -2404,11 +2386,11 @@ namespace Bunifu_Testing
             this.tabPage9.ResumeLayout(false);
             this.bunifuShadowPanel11.ResumeLayout(false);
             this.bunifuShadowPanel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage10.ResumeLayout(false);
             this.bunifuShadowPanel12.ResumeLayout(false);
             this.bunifuShadowPanel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.bunifuShadowPanel6.ResumeLayout(false);
             this.bunifuShadowPanel6.PerformLayout();
             this.tabPage3.ResumeLayout(false);
@@ -2496,7 +2478,6 @@ namespace Bunifu_Testing
         private System.Windows.Forms.Label label3;
         private Bunifu.UI.WinForms.BunifuProgressBar bunifuProgressBar2;
         private System.Windows.Forms.Label label2;
-        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox4;
         private System.Windows.Forms.TabPage tabPage5;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel10;
         private Bunifu.UI.WinForms.BunifuDropdown bunifuDropdown2;
@@ -2512,7 +2493,6 @@ namespace Bunifu_Testing
         private System.Windows.Forms.TabPage tabPage9;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel11;
         private Bunifu.UI.WinForms.BunifuDropdown bunifuDropdown3;
-        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox6;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
@@ -2524,7 +2504,6 @@ namespace Bunifu_Testing
         private System.Windows.Forms.TabPage tabPage10;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel12;
         private Bunifu.UI.WinForms.BunifuDropdown bunifuDropdown4;
-        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox7;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
@@ -2533,6 +2512,9 @@ namespace Bunifu_Testing
         private System.Windows.Forms.Label label34;
         private Bunifu.UI.WinForms.BunifuProgressBar bunifuProgressBar5;
         private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
 

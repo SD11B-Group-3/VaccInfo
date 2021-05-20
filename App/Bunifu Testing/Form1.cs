@@ -304,7 +304,7 @@ namespace Bunifu_Testing
 
         private void bunifuDropdown4_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int j = bunifuDropdown1.SelectedIndex;
+            int j = bunifuDropdown4.SelectedIndex;
 
             if (j == 0)
             {
@@ -330,7 +330,7 @@ namespace Bunifu_Testing
 
         private void bunifuDropdown2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int j = bunifuDropdown1.SelectedIndex;
+            int j = bunifuDropdown2.SelectedIndex;
  
             if (j == 1)
             {
@@ -356,7 +356,7 @@ namespace Bunifu_Testing
 
         private void bunifuDropdown3_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int j = bunifuDropdown1.SelectedIndex;
+            int j = bunifuDropdown3.SelectedIndex;
 
             if (j == 0)
             {
@@ -377,6 +377,11 @@ namespace Bunifu_Testing
             {
                 bunifuPages2.SetPage("Pfizer");
             }
+        }
+
+        private void bunifuPictureBox7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
