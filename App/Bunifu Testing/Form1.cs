@@ -18,8 +18,50 @@ namespace Bunifu_Testing
             InitializeComponent();
             bunifuFormDock1.SubscribeControlToDragEvents(panel1);
             bunifuFormDock1.SubscribeControlToDragEvents(panel2);
+            VaccineTypeandBrandsBtnDesign();
 
         }
+
+        private void VaccineTypeandBrandsBtnDesign()
+        {
+            VaccineTypesPanel.Visible = false;
+            VaccineBrandsPanel.Visible = false;
+
+        }
+
+        private void hideSubMenuVaccineInfo()
+        {
+            if (VaccineTypesPanel.Visible == true)
+            {
+                VaccineTypesPanel.Visible = false;
+            }
+
+            if (VaccineBrandsPanel.Visible == true)
+            {
+                VaccineBrandsPanel.Visible = false;
+            }
+
+
+
+        }
+
+        private void showSubMenuVaccineInfo(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenuVaccineInfo();
+                subMenu.Visible = true;
+            }
+
+            else
+            {
+                subMenu.Visible = false;
+            }
+
+        }
+
+
+
 
         private void bunifuButton1_Click(object sender, EventArgs e)
         {
@@ -437,6 +479,84 @@ namespace Bunifu_Testing
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("https://www.manilacovid19vaccine.ph/home.php");
+        }
+
+        private void VacInfobtn1_Click(object sender, EventArgs e)
+        {
+            bunifuPages3.PageIndex = 0;
+        }
+
+        private void VacInfobtn2_Click(object sender, EventArgs e)
+        {
+            bunifuPages3.PageIndex = 1;
+        }
+
+        private void bunifuButton5_Click(object sender, EventArgs e)
+        {
+            bunifuPages3.PageIndex = 2;
+        }
+
+        private void bunifuButton6_Click(object sender, EventArgs e)
+        {
+            bunifuPages3.PageIndex = 3;
+        }
+
+        private void VaccineTypebtn_Click(object sender, EventArgs e)
+        {
+            showSubMenuVaccineInfo(VaccineTypesPanel);
+        }
+
+        private void bunifuButton14_Click(object sender, EventArgs e)
+        {
+            bunifuPages4.PageIndex = 0;
+            hideSubMenuVaccineInfo();
+        }
+
+        private void bunifuButton11_Click(object sender, EventArgs e)
+        {
+            bunifuPages4.PageIndex = 1;
+            hideSubMenuVaccineInfo();
+        }
+
+        private void bunifuButton12_Click(object sender, EventArgs e)
+        {
+            bunifuPages4.PageIndex = 2;
+            hideSubMenuVaccineInfo();
+        }
+
+        private void bunifuButton13_Click(object sender, EventArgs e)
+        {
+            bunifuPages4.PageIndex = 3;
+            hideSubMenuVaccineInfo();
+        }
+
+        private void VaccineBrandsbtn_Click(object sender, EventArgs e)
+        {
+            showSubMenuVaccineInfo(VaccineBrandsPanel);
+        }
+
+        private void bunifuButton18_Click(object sender, EventArgs e)
+        {
+            bunifuPages4.PageIndex = 4;
+            hideSubMenuVaccineInfo();
+        }
+
+        private void bunifuButton17_Click(object sender, EventArgs e)
+        {
+            bunifuPages4.PageIndex = 5;
+            hideSubMenuVaccineInfo();
+        }
+
+        private void bunifuButton16_Click(object sender, EventArgs e)
+        {
+            bunifuPages4.PageIndex = 6;
+            hideSubMenuVaccineInfo();
+        }
+
+        private void bunifuButton15_Click(object sender, EventArgs e)
+        {
+            bunifuPages4.PageIndex = 7;
+            hideSubMenuVaccineInfo();
         }
     }
 
