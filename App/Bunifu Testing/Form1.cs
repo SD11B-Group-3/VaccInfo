@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Bunifu_Testing
 {
@@ -27,7 +28,7 @@ namespace Bunifu_Testing
 
         private void Form1_Load(object sender, EventArgs e)
         {
-       
+            webBrowser1.Navigate("https://www.google.com/maps/d/u/3/edit?mid=1nxLWoqE51wwPFIcAKE6Vw_uzvcJm9_3V&usp=sharing");
         }
 
         private void bunifuShadowPanel1_ControlAdded(object sender, ControlEventArgs e)
@@ -402,6 +403,40 @@ namespace Bunifu_Testing
         private void label25_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void bunifuButton9_Click(object sender, EventArgs e)
+        {
+
+            if (bunifuTextBox1.Text.Contains("Mandaluyong"))
+            {
+                webBrowser1.Navigate("https://www.google.com/maps/d/u/1/edit?mid=1_EL34lYQgcrH9JGW6u0_6tKD9ZtsQsp4&usp=sharing");
+            }
+
+            else if (bunifuTextBox1.Text.Contains("Makati"))
+            {
+                webBrowser1.Navigate("https://www.google.com/maps/d/u/0/edit?mid=1c9U2MyoQ40BK8gtUGohSQX8y5nNqHkvv&usp=sharing");
+            }
+
+            else if (bunifuTextBox1.Text.Contains("Manila"))
+            {
+                webBrowser1.Navigate("https://www.google.com/maps/d/u/3/edit?mid=1nxLWoqE51wwPFIcAKE6Vw_uzvcJm9_3V&usp=sharing");
+            }
+
+            else if (bunifuTextBox1.Text.Contains("Muntinlupa"))
+            {
+                webBrowser1.Navigate("https://www.google.com/maps/d/u/4/edit?mid=11dMQ16uIRrLxeHAJw_EjYcouyo2dw3YR&usp=sharing");
+            }
+        }
+
+        private void bunifuButton10_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("https://www.google.com/maps/d/u/0/edit?mid=1c9U2MyoQ40BK8gtUGohSQX8y5nNqHkvv&usp=sharing");
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://www.manilacovid19vaccine.ph/home.php");
         }
     }
 
