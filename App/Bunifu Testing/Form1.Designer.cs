@@ -29,6 +29,7 @@ namespace Bunifu_Testing
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
@@ -42,6 +43,7 @@ namespace Bunifu_Testing
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Utilities.BunifuPages.BunifuAnimatorNS.Animation animation3 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
@@ -57,7 +59,6 @@ namespace Bunifu_Testing
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges18 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges19 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges20 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.bunifuShadowPanel1 = new Bunifu.UI.WinForms.BunifuShadowPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.indicator = new System.Windows.Forms.PictureBox();
@@ -142,6 +143,7 @@ namespace Bunifu_Testing
             this.bunifuButton9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.VacInfobtn1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuLabel129 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuPages3 = new Bunifu.UI.WinForms.BunifuPages();
             this.tabPage11 = new System.Windows.Forms.TabPage();
@@ -291,7 +293,6 @@ namespace Bunifu_Testing
             this.bunifuButton6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.VacInfobtn2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.VacInfobtn1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel4 = new Bunifu.UI.WinForms.BunifuShadowPanel();
@@ -330,6 +331,8 @@ namespace Bunifu_Testing
             this.bunifuLabel10 = new Bunifu.UI.WinForms.BunifuLabel();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
+            this.bunifuChartCanvas1 = new Bunifu.Charts.WinForms.BunifuChartCanvas();
+            this.bunifuPolarAreaChart1 = new Bunifu.Charts.WinForms.ChartTypes.BunifuPolarAreaChart(this.components);
             this.bunifuShadowPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -351,6 +354,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.bunifuShadowPanel6.SuspendLayout();
+            this.bunifuShadowPanel5.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.bunifuPages3.SuspendLayout();
@@ -404,7 +408,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel1.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel1.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel1.Location = new System.Drawing.Point(-23, -16);
-            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
             this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel1.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -430,7 +434,7 @@ namespace Bunifu_Testing
             this.panel1.Controls.Add(this.bunifuButton1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(23, 17);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(275, 955);
             this.panel1.TabIndex = 0;
@@ -440,7 +444,7 @@ namespace Bunifu_Testing
             // 
             this.indicator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(118)))), ((int)(((byte)(37)))), ((int)(((byte)(160)))));
             this.indicator.Location = new System.Drawing.Point(0, 161);
-            this.indicator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.indicator.Margin = new System.Windows.Forms.Padding(4);
             this.indicator.Name = "indicator";
             this.indicator.Size = new System.Drawing.Size(7, 79);
             this.indicator.TabIndex = 2;
@@ -497,7 +501,7 @@ namespace Bunifu_Testing
             this.bunifuButton4.IdleIconRightImage = null;
             this.bunifuButton4.IndicateFocus = true;
             this.bunifuButton4.Location = new System.Drawing.Point(0, 398);
-            this.bunifuButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton4.Name = "bunifuButton4";
             this.bunifuButton4.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton4.OnDisabledState.BorderRadius = 1;
@@ -590,7 +594,7 @@ namespace Bunifu_Testing
             this.bunifuButton3.IdleIconRightImage = null;
             this.bunifuButton3.IndicateFocus = true;
             this.bunifuButton3.Location = new System.Drawing.Point(0, 319);
-            this.bunifuButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton3.Name = "bunifuButton3";
             this.bunifuButton3.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton3.OnDisabledState.BorderRadius = 1;
@@ -683,7 +687,7 @@ namespace Bunifu_Testing
             this.bunifuButton2.IdleIconRightImage = null;
             this.bunifuButton2.IndicateFocus = true;
             this.bunifuButton2.Location = new System.Drawing.Point(0, 240);
-            this.bunifuButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton2.Name = "bunifuButton2";
             this.bunifuButton2.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton2.OnDisabledState.BorderRadius = 1;
@@ -776,7 +780,7 @@ namespace Bunifu_Testing
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = true;
             this.bunifuButton1.Location = new System.Drawing.Point(0, 161);
-            this.bunifuButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton1.Name = "bunifuButton1";
             this.bunifuButton1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton1.OnDisabledState.BorderRadius = 1;
@@ -824,7 +828,7 @@ namespace Bunifu_Testing
             this.panel2.Controls.Add(this.bunifuImageButton3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(275, 161);
             this.panel2.TabIndex = 0;
@@ -851,7 +855,7 @@ namespace Bunifu_Testing
             this.bunifuImageButton3.ImageZoomSize = new System.Drawing.Size(139, 127);
             this.bunifuImageButton3.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.InitialImage")));
             this.bunifuImageButton3.Location = new System.Drawing.Point(65, 14);
-            this.bunifuImageButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuImageButton3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuImageButton3.Name = "bunifuImageButton3";
             this.bunifuImageButton3.Rotation = 0;
             this.bunifuImageButton3.ShowActiveImage = true;
@@ -882,13 +886,13 @@ namespace Bunifu_Testing
             this.bunifuPages1.Controls.Add(this.tabPage7);
             this.bunifuPages1.Controls.Add(this.tabPage8);
             this.bunifuPages1.Location = new System.Drawing.Point(292, 1);
-            this.bunifuPages1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPages1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.tabPage1;
-            this.bunifuPages1.PageIndex = 2;
-            this.bunifuPages1.PageName = "tabPage1";
-            this.bunifuPages1.PageTitle = "Vaccine Info";
+            this.bunifuPages1.Page = this.Dashboardpage;
+            this.bunifuPages1.PageIndex = 0;
+            this.bunifuPages1.PageName = "Dashboardpage";
+            this.bunifuPages1.PageTitle = "Dashboard";
             this.bunifuPages1.SelectedIndex = 0;
             this.bunifuPages1.ShowToolTips = true;
             this.bunifuPages1.Size = new System.Drawing.Size(1451, 955);
@@ -925,9 +929,9 @@ namespace Bunifu_Testing
             this.Dashboardpage.Controls.Add(this.bunifuShadowPanel5);
             this.Dashboardpage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Dashboardpage.Location = new System.Drawing.Point(4, 4);
-            this.Dashboardpage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Dashboardpage.Margin = new System.Windows.Forms.Padding(4);
             this.Dashboardpage.Name = "Dashboardpage";
-            this.Dashboardpage.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Dashboardpage.Padding = new System.Windows.Forms.Padding(4);
             this.Dashboardpage.Size = new System.Drawing.Size(1443, 926);
             this.Dashboardpage.TabIndex = 0;
             this.Dashboardpage.Text = "Dashboard";
@@ -952,7 +956,7 @@ namespace Bunifu_Testing
             this.bunifuDatePicker2.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
             this.bunifuDatePicker2.LeftTextMargin = 5;
             this.bunifuDatePicker2.Location = new System.Drawing.Point(1108, 82);
-            this.bunifuDatePicker2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuDatePicker2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuDatePicker2.MinDate = new System.DateTime(2021, 5, 18, 0, 0, 0, 0);
             this.bunifuDatePicker2.MinimumSize = new System.Drawing.Size(4, 32);
             this.bunifuDatePicker2.Name = "bunifuDatePicker2";
@@ -969,7 +973,7 @@ namespace Bunifu_Testing
             this.bunifuLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel8.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.bunifuLabel8.Location = new System.Drawing.Point(40, 42);
-            this.bunifuLabel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel8.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel8.Name = "bunifuLabel8";
             this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel8.Size = new System.Drawing.Size(300, 69);
@@ -1009,7 +1013,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel8.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel8.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel8.Location = new System.Drawing.Point(1087, 649);
-            this.bunifuShadowPanel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel8.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel8.Name = "bunifuShadowPanel8";
             this.bunifuShadowPanel8.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel8.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -1034,7 +1038,7 @@ namespace Bunifu_Testing
             this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(33, 81);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
             this.bunifuSeparator1.Size = new System.Drawing.Size(292, 17);
@@ -1098,7 +1102,7 @@ namespace Bunifu_Testing
             this.bunifuImageButton2.ImageZoomSize = new System.Drawing.Size(120, 111);
             this.bunifuImageButton2.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.InitialImage")));
             this.bunifuImageButton2.Location = new System.Drawing.Point(205, 138);
-            this.bunifuImageButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuImageButton2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuImageButton2.Name = "bunifuImageButton2";
             this.bunifuImageButton2.Rotation = 0;
             this.bunifuImageButton2.ShowActiveImage = false;
@@ -1134,7 +1138,7 @@ namespace Bunifu_Testing
             this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(101, 92);
             this.bunifuImageButton1.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.InitialImage")));
             this.bunifuImageButton1.Location = new System.Drawing.Point(45, 148);
-            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Rotation = 0;
             this.bunifuImageButton1.ShowActiveImage = false;
@@ -1171,7 +1175,7 @@ namespace Bunifu_Testing
             this.bunifuPages2.Controls.Add(this.tabPage9);
             this.bunifuPages2.Controls.Add(this.tabPage10);
             this.bunifuPages2.Location = new System.Drawing.Point(-5, 649);
-            this.bunifuPages2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPages2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPages2.Multiline = true;
             this.bunifuPages2.Name = "bunifuPages2";
             this.bunifuPages2.Page = this.tabPage10;
@@ -1204,9 +1208,9 @@ namespace Bunifu_Testing
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
             this.tabPage4.Controls.Add(this.bunifuShadowPanel9);
             this.tabPage4.Location = new System.Drawing.Point(4, 4);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage4.Size = new System.Drawing.Size(733, 245);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Sinovac";
@@ -1233,7 +1237,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel9.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel9.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel9.Location = new System.Drawing.Point(7, 0);
-            this.bunifuShadowPanel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel9.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel9.Name = "bunifuShadowPanel9";
             this.bunifuShadowPanel9.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel9.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -1322,7 +1326,7 @@ namespace Bunifu_Testing
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(160, 76);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(133, 62);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1369,7 +1373,7 @@ namespace Bunifu_Testing
             "Pfizer"});
             this.bunifuDropdown1.ItemTopMargin = 3;
             this.bunifuDropdown1.Location = new System.Drawing.Point(33, 34);
-            this.bunifuDropdown1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuDropdown1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuDropdown1.Name = "bunifuDropdown1";
             this.bunifuDropdown1.Size = new System.Drawing.Size(268, 32);
             this.bunifuDropdown1.TabIndex = 4;
@@ -1403,7 +1407,7 @@ namespace Bunifu_Testing
             this.bunifuProgressBar2.BorderRadius = 9;
             this.bunifuProgressBar2.BorderThickness = 1;
             this.bunifuProgressBar2.Location = new System.Drawing.Point(33, 196);
-            this.bunifuProgressBar2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuProgressBar2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuProgressBar2.Maximum = 100;
             this.bunifuProgressBar2.MaximumValue = 100;
             this.bunifuProgressBar2.Minimum = 0;
@@ -1424,9 +1428,9 @@ namespace Bunifu_Testing
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
             this.tabPage5.Controls.Add(this.bunifuShadowPanel10);
             this.tabPage5.Location = new System.Drawing.Point(4, 4);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage5.Size = new System.Drawing.Size(733, 245);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "Astrazeneca";
@@ -1453,7 +1457,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel10.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel10.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel10.Location = new System.Drawing.Point(7, 0);
-            this.bunifuShadowPanel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel10.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel10.Name = "bunifuShadowPanel10";
             this.bunifuShadowPanel10.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel10.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -1578,7 +1582,7 @@ namespace Bunifu_Testing
             "Pfizer"});
             this.bunifuDropdown2.ItemTopMargin = 3;
             this.bunifuDropdown2.Location = new System.Drawing.Point(33, 34);
-            this.bunifuDropdown2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuDropdown2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuDropdown2.Name = "bunifuDropdown2";
             this.bunifuDropdown2.Size = new System.Drawing.Size(268, 32);
             this.bunifuDropdown2.TabIndex = 4;
@@ -1591,7 +1595,7 @@ namespace Bunifu_Testing
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(237, 76);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(133, 46);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1622,7 +1626,7 @@ namespace Bunifu_Testing
             this.bunifuProgressBar1.BorderRadius = 9;
             this.bunifuProgressBar1.BorderThickness = 1;
             this.bunifuProgressBar1.Location = new System.Drawing.Point(33, 196);
-            this.bunifuProgressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuProgressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuProgressBar1.Maximum = 100;
             this.bunifuProgressBar1.MaximumValue = 100;
             this.bunifuProgressBar1.Minimum = 0;
@@ -1642,9 +1646,9 @@ namespace Bunifu_Testing
             this.tabPage9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
             this.tabPage9.Controls.Add(this.bunifuShadowPanel11);
             this.tabPage9.Location = new System.Drawing.Point(4, 4);
-            this.tabPage9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage9.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage9.Size = new System.Drawing.Size(733, 245);
             this.tabPage9.TabIndex = 2;
             this.tabPage9.Text = "Sputnik V";
@@ -1671,7 +1675,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel11.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel11.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel11.Location = new System.Drawing.Point(7, 0);
-            this.bunifuShadowPanel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel11.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel11.Name = "bunifuShadowPanel11";
             this.bunifuShadowPanel11.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel11.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -1764,7 +1768,7 @@ namespace Bunifu_Testing
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(188, 76);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(133, 62);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1811,7 +1815,7 @@ namespace Bunifu_Testing
             "Pfizer"});
             this.bunifuDropdown3.ItemTopMargin = 3;
             this.bunifuDropdown3.Location = new System.Drawing.Point(33, 34);
-            this.bunifuDropdown3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuDropdown3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuDropdown3.Name = "bunifuDropdown3";
             this.bunifuDropdown3.Size = new System.Drawing.Size(268, 32);
             this.bunifuDropdown3.TabIndex = 4;
@@ -1844,7 +1848,7 @@ namespace Bunifu_Testing
             this.bunifuProgressBar4.BorderRadius = 9;
             this.bunifuProgressBar4.BorderThickness = 1;
             this.bunifuProgressBar4.Location = new System.Drawing.Point(33, 196);
-            this.bunifuProgressBar4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuProgressBar4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuProgressBar4.Maximum = 100;
             this.bunifuProgressBar4.MaximumValue = 100;
             this.bunifuProgressBar4.Minimum = 0;
@@ -1864,9 +1868,9 @@ namespace Bunifu_Testing
             this.tabPage10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
             this.tabPage10.Controls.Add(this.bunifuShadowPanel12);
             this.tabPage10.Location = new System.Drawing.Point(4, 4);
-            this.tabPage10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage10.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage10.Size = new System.Drawing.Size(733, 245);
             this.tabPage10.TabIndex = 3;
             this.tabPage10.Text = "Pfizer";
@@ -1893,7 +1897,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel12.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel12.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel12.Location = new System.Drawing.Point(7, 0);
-            this.bunifuShadowPanel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel12.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel12.Name = "bunifuShadowPanel12";
             this.bunifuShadowPanel12.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel12.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -1946,7 +1950,7 @@ namespace Bunifu_Testing
             "Pfizer"});
             this.bunifuDropdown4.ItemTopMargin = 3;
             this.bunifuDropdown4.Location = new System.Drawing.Point(33, 34);
-            this.bunifuDropdown4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuDropdown4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuDropdown4.Name = "bunifuDropdown4";
             this.bunifuDropdown4.Size = new System.Drawing.Size(268, 32);
             this.bunifuDropdown4.TabIndex = 4;
@@ -1959,7 +1963,7 @@ namespace Bunifu_Testing
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(144, 81);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(120, 48);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2050,7 +2054,7 @@ namespace Bunifu_Testing
             this.bunifuProgressBar5.BorderRadius = 9;
             this.bunifuProgressBar5.BorderThickness = 1;
             this.bunifuProgressBar5.Location = new System.Drawing.Point(33, 196);
-            this.bunifuProgressBar5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuProgressBar5.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuProgressBar5.Maximum = 100;
             this.bunifuProgressBar5.MaximumValue = 100;
             this.bunifuProgressBar5.Minimum = 0;
@@ -2092,7 +2096,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel6.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel6.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel6.Location = new System.Drawing.Point(720, 649);
-            this.bunifuShadowPanel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel6.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel6.Name = "bunifuShadowPanel6";
             this.bunifuShadowPanel6.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel6.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -2143,7 +2147,7 @@ namespace Bunifu_Testing
             this.bunifuCircleProgress1.LineProgressThickness = 10;
             this.bunifuCircleProgress1.LineThickness = 10;
             this.bunifuCircleProgress1.Location = new System.Drawing.Point(108, 70);
-            this.bunifuCircleProgress1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuCircleProgress1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuCircleProgress1.Name = "bunifuCircleProgress1";
             this.bunifuCircleProgress1.ProgressAnimationSpeed = 200;
             this.bunifuCircleProgress1.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
@@ -2177,11 +2181,12 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel5.BorderRadius = 1;
             this.bunifuShadowPanel5.BorderThickness = 1;
             this.bunifuShadowPanel5.CausesValidation = false;
+            this.bunifuShadowPanel5.Controls.Add(this.bunifuChartCanvas1);
             this.bunifuShadowPanel5.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel5.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuShadowPanel5.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel5.Location = new System.Drawing.Point(3, 156);
-            this.bunifuShadowPanel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel5.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel5.Name = "bunifuShadowPanel5";
             this.bunifuShadowPanel5.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel5.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -2205,9 +2210,9 @@ namespace Bunifu_Testing
             this.tabPage2.Controls.Add(this.bunifuButton9);
             this.tabPage2.Controls.Add(this.bunifuTextBox1);
             this.tabPage2.Location = new System.Drawing.Point(4, 4);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(1443, 926);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Near You";
@@ -2222,7 +2227,7 @@ namespace Bunifu_Testing
             this.bunifuLabel120.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel120.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.bunifuLabel120.Location = new System.Drawing.Point(40, 42);
-            this.bunifuLabel120.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel120.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel120.Name = "bunifuLabel120";
             this.bunifuLabel120.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel120.Size = new System.Drawing.Size(259, 69);
@@ -2249,7 +2254,7 @@ namespace Bunifu_Testing
             // webBrowser1
             // 
             this.webBrowser1.Location = new System.Drawing.Point(21, 235);
-            this.webBrowser1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(4);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(27, 25);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.ScrollBarsEnabled = false;
@@ -2304,7 +2309,7 @@ namespace Bunifu_Testing
             this.bunifuButton10.IdleIconRightImage = null;
             this.bunifuButton10.IndicateFocus = false;
             this.bunifuButton10.Location = new System.Drawing.Point(619, 156);
-            this.bunifuButton10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton10.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton10.Name = "bunifuButton10";
             this.bunifuButton10.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton10.OnDisabledState.BorderRadius = 1;
@@ -2395,7 +2400,7 @@ namespace Bunifu_Testing
             this.bunifuButton9.IdleIconRightImage = null;
             this.bunifuButton9.IndicateFocus = false;
             this.bunifuButton9.Location = new System.Drawing.Point(381, 156);
-            this.bunifuButton9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton9.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton9.Name = "bunifuButton9";
             this.bunifuButton9.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton9.OnDisabledState.BorderRadius = 1;
@@ -2467,7 +2472,7 @@ namespace Bunifu_Testing
             this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1.Lines = new string[0];
             this.bunifuTextBox1.Location = new System.Drawing.Point(40, 156);
-            this.bunifuTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuTextBox1.MaxLength = 32767;
             this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox1.Modified = false;
@@ -2493,7 +2498,7 @@ namespace Bunifu_Testing
             stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox1.OnIdleState = stateProperties4;
-            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(4);
             this.bunifuTextBox1.PasswordChar = '\0';
             this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.bunifuTextBox1.PlaceholderText = "Enter Your City";
@@ -2524,13 +2529,104 @@ namespace Bunifu_Testing
             this.tabPage1.Controls.Add(this.bunifuButton5);
             this.tabPage1.Controls.Add(this.VacInfobtn2);
             this.tabPage1.Location = new System.Drawing.Point(4, 4);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(1443, 926);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Vaccine Info";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // VacInfobtn1
+            // 
+            this.VacInfobtn1.AllowAnimations = true;
+            this.VacInfobtn1.AllowMouseEffects = true;
+            this.VacInfobtn1.AllowToggling = false;
+            this.VacInfobtn1.AnimationSpeed = 200;
+            this.VacInfobtn1.AutoGenerateColors = false;
+            this.VacInfobtn1.AutoRoundBorders = false;
+            this.VacInfobtn1.AutoSizeLeftIcon = true;
+            this.VacInfobtn1.AutoSizeRightIcon = true;
+            this.VacInfobtn1.BackColor = System.Drawing.Color.Transparent;
+            this.VacInfobtn1.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
+            this.VacInfobtn1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("VacInfobtn1.BackgroundImage")));
+            this.VacInfobtn1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.VacInfobtn1.ButtonText = "What is Covid-19 Vaccine";
+            this.VacInfobtn1.ButtonTextMarginLeft = 0;
+            this.VacInfobtn1.ColorContrastOnClick = 45;
+            this.VacInfobtn1.ColorContrastOnHover = 45;
+            this.VacInfobtn1.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges7.BottomLeft = true;
+            borderEdges7.BottomRight = true;
+            borderEdges7.TopLeft = true;
+            borderEdges7.TopRight = true;
+            this.VacInfobtn1.CustomizableEdges = borderEdges7;
+            this.VacInfobtn1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.VacInfobtn1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.VacInfobtn1.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.VacInfobtn1.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.VacInfobtn1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.VacInfobtn1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VacInfobtn1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
+            this.VacInfobtn1.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.VacInfobtn1.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.VacInfobtn1.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.VacInfobtn1.IconMarginLeft = 11;
+            this.VacInfobtn1.IconPadding = 10;
+            this.VacInfobtn1.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.VacInfobtn1.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.VacInfobtn1.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.VacInfobtn1.IconSize = 25;
+            this.VacInfobtn1.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
+            this.VacInfobtn1.IdleBorderRadius = 1;
+            this.VacInfobtn1.IdleBorderThickness = 1;
+            this.VacInfobtn1.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
+            this.VacInfobtn1.IdleIconLeftImage = null;
+            this.VacInfobtn1.IdleIconRightImage = null;
+            this.VacInfobtn1.IndicateFocus = false;
+            this.VacInfobtn1.Location = new System.Drawing.Point(4, 116);
+            this.VacInfobtn1.Margin = new System.Windows.Forms.Padding(4);
+            this.VacInfobtn1.Name = "VacInfobtn1";
+            this.VacInfobtn1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.VacInfobtn1.OnDisabledState.BorderRadius = 1;
+            this.VacInfobtn1.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.VacInfobtn1.OnDisabledState.BorderThickness = 1;
+            this.VacInfobtn1.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.VacInfobtn1.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.VacInfobtn1.OnDisabledState.IconLeftImage = null;
+            this.VacInfobtn1.OnDisabledState.IconRightImage = null;
+            this.VacInfobtn1.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(34)))), ((int)(((byte)(102)))));
+            this.VacInfobtn1.onHoverState.BorderRadius = 1;
+            this.VacInfobtn1.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.VacInfobtn1.onHoverState.BorderThickness = 1;
+            this.VacInfobtn1.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(34)))), ((int)(((byte)(102)))));
+            this.VacInfobtn1.onHoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
+            this.VacInfobtn1.onHoverState.IconLeftImage = null;
+            this.VacInfobtn1.onHoverState.IconRightImage = null;
+            this.VacInfobtn1.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
+            this.VacInfobtn1.OnIdleState.BorderRadius = 1;
+            this.VacInfobtn1.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.VacInfobtn1.OnIdleState.BorderThickness = 1;
+            this.VacInfobtn1.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
+            this.VacInfobtn1.OnIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
+            this.VacInfobtn1.OnIdleState.IconLeftImage = null;
+            this.VacInfobtn1.OnIdleState.IconRightImage = null;
+            this.VacInfobtn1.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.VacInfobtn1.OnPressedState.BorderRadius = 1;
+            this.VacInfobtn1.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.VacInfobtn1.OnPressedState.BorderThickness = 1;
+            this.VacInfobtn1.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.VacInfobtn1.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.VacInfobtn1.OnPressedState.IconLeftImage = null;
+            this.VacInfobtn1.OnPressedState.IconRightImage = null;
+            this.VacInfobtn1.Size = new System.Drawing.Size(295, 58);
+            this.VacInfobtn1.TabIndex = 5;
+            this.VacInfobtn1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.VacInfobtn1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.VacInfobtn1.TextMarginLeft = 0;
+            this.VacInfobtn1.TextPadding = new System.Windows.Forms.Padding(0);
+            this.VacInfobtn1.UseDefaultRadiusAndThickness = true;
+            this.VacInfobtn1.Click += new System.EventHandler(this.VacInfobtn1_Click);
             // 
             // bunifuLabel129
             // 
@@ -2541,7 +2637,7 @@ namespace Bunifu_Testing
             this.bunifuLabel129.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel129.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.bunifuLabel129.Location = new System.Drawing.Point(25, 26);
-            this.bunifuLabel129.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel129.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel129.Name = "bunifuLabel129";
             this.bunifuLabel129.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel129.Size = new System.Drawing.Size(216, 91);
@@ -2559,7 +2655,7 @@ namespace Bunifu_Testing
             this.bunifuPages3.Controls.Add(this.tabPage13);
             this.bunifuPages3.Controls.Add(this.tabPage14);
             this.bunifuPages3.Location = new System.Drawing.Point(4, 181);
-            this.bunifuPages3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPages3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPages3.Multiline = true;
             this.bunifuPages3.Name = "bunifuPages3";
             this.bunifuPages3.Page = this.tabPage11;
@@ -2597,9 +2693,9 @@ namespace Bunifu_Testing
             this.tabPage11.Controls.Add(this.VaccineTypebtn);
             this.tabPage11.Controls.Add(this.bunifuShadowPanel13);
             this.tabPage11.Location = new System.Drawing.Point(4, 4);
-            this.tabPage11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage11.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage11.Size = new System.Drawing.Size(1424, 724);
             this.tabPage11.TabIndex = 0;
             this.tabPage11.Text = "tabPage11";
@@ -2617,7 +2713,7 @@ namespace Bunifu_Testing
             this.VaccineBrandsPanel.Controls.Add(this.bunifuButton17);
             this.VaccineBrandsPanel.Controls.Add(this.bunifuButton18);
             this.VaccineBrandsPanel.Location = new System.Drawing.Point(1133, 58);
-            this.VaccineBrandsPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.VaccineBrandsPanel.Margin = new System.Windows.Forms.Padding(4);
             this.VaccineBrandsPanel.Name = "VaccineBrandsPanel";
             this.VaccineBrandsPanel.ShowBorders = true;
             this.VaccineBrandsPanel.Size = new System.Drawing.Size(281, 210);
@@ -2672,7 +2768,7 @@ namespace Bunifu_Testing
             this.bunifuButton15.IdleIconRightImage = null;
             this.bunifuButton15.IndicateFocus = false;
             this.bunifuButton15.Location = new System.Drawing.Point(0, 149);
-            this.bunifuButton15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton15.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton15.Name = "bunifuButton15";
             this.bunifuButton15.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton15.OnDisabledState.BorderRadius = 1;
@@ -2764,7 +2860,7 @@ namespace Bunifu_Testing
             this.bunifuButton16.IdleIconRightImage = null;
             this.bunifuButton16.IndicateFocus = false;
             this.bunifuButton16.Location = new System.Drawing.Point(0, 94);
-            this.bunifuButton16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton16.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton16.Name = "bunifuButton16";
             this.bunifuButton16.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton16.OnDisabledState.BorderRadius = 1;
@@ -2856,7 +2952,7 @@ namespace Bunifu_Testing
             this.bunifuButton17.IdleIconRightImage = null;
             this.bunifuButton17.IndicateFocus = false;
             this.bunifuButton17.Location = new System.Drawing.Point(0, 48);
-            this.bunifuButton17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton17.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton17.Name = "bunifuButton17";
             this.bunifuButton17.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton17.OnDisabledState.BorderRadius = 1;
@@ -2948,7 +3044,7 @@ namespace Bunifu_Testing
             this.bunifuButton18.IdleIconRightImage = null;
             this.bunifuButton18.IndicateFocus = false;
             this.bunifuButton18.Location = new System.Drawing.Point(0, 0);
-            this.bunifuButton18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton18.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton18.Name = "bunifuButton18";
             this.bunifuButton18.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton18.OnDisabledState.BorderRadius = 1;
@@ -3004,7 +3100,7 @@ namespace Bunifu_Testing
             this.VaccineTypesPanel.Controls.Add(this.bunifuButton11);
             this.VaccineTypesPanel.Controls.Add(this.bunifuButton14);
             this.VaccineTypesPanel.Location = new System.Drawing.Point(783, 58);
-            this.VaccineTypesPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.VaccineTypesPanel.Margin = new System.Windows.Forms.Padding(4);
             this.VaccineTypesPanel.Name = "VaccineTypesPanel";
             this.VaccineTypesPanel.ShowBorders = true;
             this.VaccineTypesPanel.Size = new System.Drawing.Size(341, 210);
@@ -3059,7 +3155,7 @@ namespace Bunifu_Testing
             this.bunifuButton13.IdleIconRightImage = null;
             this.bunifuButton13.IndicateFocus = false;
             this.bunifuButton13.Location = new System.Drawing.Point(0, 156);
-            this.bunifuButton13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton13.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton13.Name = "bunifuButton13";
             this.bunifuButton13.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton13.OnDisabledState.BorderRadius = 1;
@@ -3151,7 +3247,7 @@ namespace Bunifu_Testing
             this.bunifuButton12.IdleIconRightImage = null;
             this.bunifuButton12.IndicateFocus = false;
             this.bunifuButton12.Location = new System.Drawing.Point(0, 106);
-            this.bunifuButton12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton12.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton12.Name = "bunifuButton12";
             this.bunifuButton12.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton12.OnDisabledState.BorderRadius = 1;
@@ -3243,7 +3339,7 @@ namespace Bunifu_Testing
             this.bunifuButton11.IdleIconRightImage = null;
             this.bunifuButton11.IndicateFocus = false;
             this.bunifuButton11.Location = new System.Drawing.Point(0, 53);
-            this.bunifuButton11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton11.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton11.Name = "bunifuButton11";
             this.bunifuButton11.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton11.OnDisabledState.BorderRadius = 1;
@@ -3335,7 +3431,7 @@ namespace Bunifu_Testing
             this.bunifuButton14.IdleIconRightImage = null;
             this.bunifuButton14.IndicateFocus = false;
             this.bunifuButton14.Location = new System.Drawing.Point(0, 0);
-            this.bunifuButton14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton14.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton14.Name = "bunifuButton14";
             this.bunifuButton14.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton14.OnDisabledState.BorderRadius = 1;
@@ -3426,7 +3522,7 @@ namespace Bunifu_Testing
             this.VaccineBrandsbtn.IdleIconRightImage = null;
             this.VaccineBrandsbtn.IndicateFocus = false;
             this.VaccineBrandsbtn.Location = new System.Drawing.Point(1133, 7);
-            this.VaccineBrandsbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.VaccineBrandsbtn.Margin = new System.Windows.Forms.Padding(4);
             this.VaccineBrandsbtn.Name = "VaccineBrandsbtn";
             this.VaccineBrandsbtn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.VaccineBrandsbtn.OnDisabledState.BorderRadius = 1;
@@ -3482,7 +3578,7 @@ namespace Bunifu_Testing
             this.bunifuPages4.Controls.Add(this.tabPage21);
             this.bunifuPages4.Controls.Add(this.tabPage22);
             this.bunifuPages4.Location = new System.Drawing.Point(1, 276);
-            this.bunifuPages4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPages4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPages4.Multiline = true;
             this.bunifuPages4.Name = "bunifuPages4";
             this.bunifuPages4.Page = this.tabPage16;
@@ -3527,9 +3623,9 @@ namespace Bunifu_Testing
             this.tabPage15.Controls.Add(this.bunifuLabel33);
             this.tabPage15.Controls.Add(this.bunifuLabel34);
             this.tabPage15.Location = new System.Drawing.Point(4, 4);
-            this.tabPage15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage15.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage15.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage15.Size = new System.Drawing.Size(1404, 429);
             this.tabPage15.TabIndex = 0;
             this.tabPage15.Text = "tabPage15";
@@ -3542,7 +3638,7 @@ namespace Bunifu_Testing
             this.bunifuLabel22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel22.Location = new System.Drawing.Point(137, 380);
-            this.bunifuLabel22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel22.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel22.Name = "bunifuLabel22";
             this.bunifuLabel22.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel22.Size = new System.Drawing.Size(270, 28);
@@ -3560,7 +3656,7 @@ namespace Bunifu_Testing
             this.bunifuLabel21.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel21.Location = new System.Drawing.Point(19, 380);
-            this.bunifuLabel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel21.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel21.Name = "bunifuLabel21";
             this.bunifuLabel21.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel21.Size = new System.Drawing.Size(104, 28);
@@ -3577,7 +3673,7 @@ namespace Bunifu_Testing
             this.bunifuLabel24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel24.Location = new System.Drawing.Point(19, 326);
-            this.bunifuLabel24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel24.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel24.Name = "bunifuLabel24";
             this.bunifuLabel24.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel24.Size = new System.Drawing.Size(1169, 28);
@@ -3595,7 +3691,7 @@ namespace Bunifu_Testing
             this.bunifuLabel25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel25.Location = new System.Drawing.Point(112, 300);
-            this.bunifuLabel25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel25.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel25.Name = "bunifuLabel25";
             this.bunifuLabel25.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel25.Size = new System.Drawing.Size(1014, 28);
@@ -3614,7 +3710,7 @@ namespace Bunifu_Testing
             this.bunifuLabel26.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel26.Location = new System.Drawing.Point(19, 300);
-            this.bunifuLabel26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel26.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel26.Name = "bunifuLabel26";
             this.bunifuLabel26.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel26.Size = new System.Drawing.Size(79, 28);
@@ -3631,7 +3727,7 @@ namespace Bunifu_Testing
             this.bunifuLabel27.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel27.Location = new System.Drawing.Point(271, 178);
-            this.bunifuLabel27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel27.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel27.Name = "bunifuLabel27";
             this.bunifuLabel27.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel27.Size = new System.Drawing.Size(1030, 28);
@@ -3649,7 +3745,7 @@ namespace Bunifu_Testing
             this.bunifuLabel28.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel28.Location = new System.Drawing.Point(20, 203);
-            this.bunifuLabel28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel28.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel28.Name = "bunifuLabel28";
             this.bunifuLabel28.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel28.Size = new System.Drawing.Size(1253, 84);
@@ -3667,7 +3763,7 @@ namespace Bunifu_Testing
             this.bunifuLabel29.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel29.Location = new System.Drawing.Point(21, 178);
-            this.bunifuLabel29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel29.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel29.Name = "bunifuLabel29";
             this.bunifuLabel29.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel29.Size = new System.Drawing.Size(222, 28);
@@ -3684,7 +3780,7 @@ namespace Bunifu_Testing
             this.bunifuLabel30.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel30.Location = new System.Drawing.Point(300, 132);
-            this.bunifuLabel30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel30.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel30.Name = "bunifuLabel30";
             this.bunifuLabel30.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel30.Size = new System.Drawing.Size(195, 28);
@@ -3701,7 +3797,7 @@ namespace Bunifu_Testing
             this.bunifuLabel31.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel31.Location = new System.Drawing.Point(21, 132);
-            this.bunifuLabel31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel31.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel31.Name = "bunifuLabel31";
             this.bunifuLabel31.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel31.Size = new System.Drawing.Size(254, 28);
@@ -3718,7 +3814,7 @@ namespace Bunifu_Testing
             this.bunifuLabel32.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel32.Location = new System.Drawing.Point(196, 86);
-            this.bunifuLabel32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel32.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel32.Name = "bunifuLabel32";
             this.bunifuLabel32.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel32.Size = new System.Drawing.Size(173, 28);
@@ -3735,7 +3831,7 @@ namespace Bunifu_Testing
             this.bunifuLabel33.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel33.Location = new System.Drawing.Point(21, 86);
-            this.bunifuLabel33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel33.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel33.Name = "bunifuLabel33";
             this.bunifuLabel33.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel33.Size = new System.Drawing.Size(156, 28);
@@ -3753,7 +3849,7 @@ namespace Bunifu_Testing
             this.bunifuLabel34.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel34.Location = new System.Drawing.Point(21, 34);
-            this.bunifuLabel34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel34.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel34.Name = "bunifuLabel34";
             this.bunifuLabel34.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel34.Size = new System.Drawing.Size(221, 32);
@@ -3780,9 +3876,9 @@ namespace Bunifu_Testing
             this.tabPage16.Controls.Add(this.bunifuLabel47);
             this.tabPage16.Controls.Add(this.bunifuLabel48);
             this.tabPage16.Location = new System.Drawing.Point(4, 4);
-            this.tabPage16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage16.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage16.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage16.Size = new System.Drawing.Size(1404, 429);
             this.tabPage16.TabIndex = 1;
             this.tabPage16.Text = "tabPage16";
@@ -3795,7 +3891,7 @@ namespace Bunifu_Testing
             this.bunifuLabel35.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel35.Location = new System.Drawing.Point(140, 370);
-            this.bunifuLabel35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel35.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel35.Name = "bunifuLabel35";
             this.bunifuLabel35.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel35.Size = new System.Drawing.Size(883, 28);
@@ -3814,7 +3910,7 @@ namespace Bunifu_Testing
             this.bunifuLabel36.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel36.Location = new System.Drawing.Point(21, 370);
-            this.bunifuLabel36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel36.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel36.Name = "bunifuLabel36";
             this.bunifuLabel36.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel36.Size = new System.Drawing.Size(104, 28);
@@ -3831,7 +3927,7 @@ namespace Bunifu_Testing
             this.bunifuLabel37.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel37.Location = new System.Drawing.Point(115, 299);
-            this.bunifuLabel37.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel37.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel37.Name = "bunifuLabel37";
             this.bunifuLabel37.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel37.Size = new System.Drawing.Size(1008, 28);
@@ -3850,7 +3946,7 @@ namespace Bunifu_Testing
             this.bunifuLabel38.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel38.Location = new System.Drawing.Point(21, 299);
-            this.bunifuLabel38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel38.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel38.Name = "bunifuLabel38";
             this.bunifuLabel38.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel38.Size = new System.Drawing.Size(79, 28);
@@ -3867,7 +3963,7 @@ namespace Bunifu_Testing
             this.bunifuLabel39.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel39.Location = new System.Drawing.Point(271, 162);
-            this.bunifuLabel39.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel39.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel39.Name = "bunifuLabel39";
             this.bunifuLabel39.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel39.Size = new System.Drawing.Size(994, 28);
@@ -3885,7 +3981,7 @@ namespace Bunifu_Testing
             this.bunifuLabel40.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel40.Location = new System.Drawing.Point(21, 185);
-            this.bunifuLabel40.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel40.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel40.Name = "bunifuLabel40";
             this.bunifuLabel40.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel40.Size = new System.Drawing.Size(1214, 112);
@@ -3903,7 +3999,7 @@ namespace Bunifu_Testing
             this.bunifuLabel41.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel41.Location = new System.Drawing.Point(21, 162);
-            this.bunifuLabel41.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel41.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel41.Name = "bunifuLabel41";
             this.bunifuLabel41.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel41.Size = new System.Drawing.Size(222, 28);
@@ -3920,7 +4016,7 @@ namespace Bunifu_Testing
             this.bunifuLabel42.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel42.Location = new System.Drawing.Point(300, 121);
-            this.bunifuLabel42.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel42.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel42.Name = "bunifuLabel42";
             this.bunifuLabel42.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel42.Size = new System.Drawing.Size(195, 28);
@@ -3937,7 +4033,7 @@ namespace Bunifu_Testing
             this.bunifuLabel43.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel43.Location = new System.Drawing.Point(21, 121);
-            this.bunifuLabel43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel43.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel43.Name = "bunifuLabel43";
             this.bunifuLabel43.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel43.Size = new System.Drawing.Size(254, 28);
@@ -3954,7 +4050,7 @@ namespace Bunifu_Testing
             this.bunifuLabel44.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel44.Location = new System.Drawing.Point(196, 85);
-            this.bunifuLabel44.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel44.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel44.Name = "bunifuLabel44";
             this.bunifuLabel44.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel44.Size = new System.Drawing.Size(137, 28);
@@ -3971,7 +4067,7 @@ namespace Bunifu_Testing
             this.bunifuLabel45.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel45.Location = new System.Drawing.Point(21, 85);
-            this.bunifuLabel45.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel45.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel45.Name = "bunifuLabel45";
             this.bunifuLabel45.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel45.Size = new System.Drawing.Size(156, 28);
@@ -3988,7 +4084,7 @@ namespace Bunifu_Testing
             this.bunifuLabel46.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel46.Location = new System.Drawing.Point(21, 34);
-            this.bunifuLabel46.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel46.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel46.Name = "bunifuLabel46";
             this.bunifuLabel46.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel46.Size = new System.Drawing.Size(246, 32);
@@ -4005,7 +4101,7 @@ namespace Bunifu_Testing
             this.bunifuLabel47.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel47.Location = new System.Drawing.Point(21, 322);
-            this.bunifuLabel47.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel47.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel47.Name = "bunifuLabel47";
             this.bunifuLabel47.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel47.Size = new System.Drawing.Size(1220, 28);
@@ -4023,7 +4119,7 @@ namespace Bunifu_Testing
             this.bunifuLabel48.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel48.Location = new System.Drawing.Point(21, 394);
-            this.bunifuLabel48.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel48.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel48.Name = "bunifuLabel48";
             this.bunifuLabel48.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel48.Size = new System.Drawing.Size(1208, 28);
@@ -4051,9 +4147,9 @@ namespace Bunifu_Testing
             this.tabPage17.Controls.Add(this.bunifuLabel61);
             this.tabPage17.Controls.Add(this.bunifuLabel62);
             this.tabPage17.Location = new System.Drawing.Point(4, 4);
-            this.tabPage17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage17.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage17.Name = "tabPage17";
-            this.tabPage17.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage17.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage17.Size = new System.Drawing.Size(1404, 429);
             this.tabPage17.TabIndex = 2;
             this.tabPage17.Text = "tabPage17";
@@ -4066,7 +4162,7 @@ namespace Bunifu_Testing
             this.bunifuLabel49.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel49.Location = new System.Drawing.Point(140, 352);
-            this.bunifuLabel49.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel49.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel49.Name = "bunifuLabel49";
             this.bunifuLabel49.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel49.Size = new System.Drawing.Size(1080, 28);
@@ -4085,7 +4181,7 @@ namespace Bunifu_Testing
             this.bunifuLabel50.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel50.Location = new System.Drawing.Point(21, 352);
-            this.bunifuLabel50.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel50.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel50.Name = "bunifuLabel50";
             this.bunifuLabel50.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel50.Size = new System.Drawing.Size(104, 28);
@@ -4102,7 +4198,7 @@ namespace Bunifu_Testing
             this.bunifuLabel51.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel51.Location = new System.Drawing.Point(115, 283);
-            this.bunifuLabel51.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel51.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel51.Name = "bunifuLabel51";
             this.bunifuLabel51.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel51.Size = new System.Drawing.Size(1059, 28);
@@ -4121,7 +4217,7 @@ namespace Bunifu_Testing
             this.bunifuLabel52.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel52.Location = new System.Drawing.Point(21, 283);
-            this.bunifuLabel52.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel52.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel52.Name = "bunifuLabel52";
             this.bunifuLabel52.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel52.Size = new System.Drawing.Size(79, 28);
@@ -4138,7 +4234,7 @@ namespace Bunifu_Testing
             this.bunifuLabel53.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel53.Location = new System.Drawing.Point(272, 178);
-            this.bunifuLabel53.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel53.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel53.Name = "bunifuLabel53";
             this.bunifuLabel53.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel53.Size = new System.Drawing.Size(1009, 28);
@@ -4156,7 +4252,7 @@ namespace Bunifu_Testing
             this.bunifuLabel54.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel54.Location = new System.Drawing.Point(24, 201);
-            this.bunifuLabel54.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel54.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel54.Name = "bunifuLabel54";
             this.bunifuLabel54.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel54.Size = new System.Drawing.Size(1194, 56);
@@ -4174,7 +4270,7 @@ namespace Bunifu_Testing
             this.bunifuLabel55.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel55.Location = new System.Drawing.Point(24, 178);
-            this.bunifuLabel55.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel55.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel55.Name = "bunifuLabel55";
             this.bunifuLabel55.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel55.Size = new System.Drawing.Size(222, 28);
@@ -4191,7 +4287,7 @@ namespace Bunifu_Testing
             this.bunifuLabel56.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel56.Location = new System.Drawing.Point(303, 132);
-            this.bunifuLabel56.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel56.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel56.Name = "bunifuLabel56";
             this.bunifuLabel56.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel56.Size = new System.Drawing.Size(195, 28);
@@ -4208,7 +4304,7 @@ namespace Bunifu_Testing
             this.bunifuLabel57.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel57.Location = new System.Drawing.Point(24, 132);
-            this.bunifuLabel57.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel57.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel57.Name = "bunifuLabel57";
             this.bunifuLabel57.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel57.Size = new System.Drawing.Size(254, 28);
@@ -4225,7 +4321,7 @@ namespace Bunifu_Testing
             this.bunifuLabel58.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel58.Location = new System.Drawing.Point(199, 86);
-            this.bunifuLabel58.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel58.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel58.Name = "bunifuLabel58";
             this.bunifuLabel58.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel58.Size = new System.Drawing.Size(199, 28);
@@ -4242,7 +4338,7 @@ namespace Bunifu_Testing
             this.bunifuLabel59.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel59.Location = new System.Drawing.Point(24, 86);
-            this.bunifuLabel59.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel59.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel59.Name = "bunifuLabel59";
             this.bunifuLabel59.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel59.Size = new System.Drawing.Size(156, 28);
@@ -4259,7 +4355,7 @@ namespace Bunifu_Testing
             this.bunifuLabel60.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel60.Location = new System.Drawing.Point(24, 34);
-            this.bunifuLabel60.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel60.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel60.Name = "bunifuLabel60";
             this.bunifuLabel60.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel60.Size = new System.Drawing.Size(311, 32);
@@ -4276,7 +4372,7 @@ namespace Bunifu_Testing
             this.bunifuLabel61.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel61.Location = new System.Drawing.Point(21, 306);
-            this.bunifuLabel61.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel61.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel61.Name = "bunifuLabel61";
             this.bunifuLabel61.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel61.Size = new System.Drawing.Size(275, 28);
@@ -4293,7 +4389,7 @@ namespace Bunifu_Testing
             this.bunifuLabel62.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel62.Location = new System.Drawing.Point(21, 374);
-            this.bunifuLabel62.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel62.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel62.Name = "bunifuLabel62";
             this.bunifuLabel62.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel62.Size = new System.Drawing.Size(315, 28);
@@ -4320,9 +4416,9 @@ namespace Bunifu_Testing
             this.tabPage18.Controls.Add(this.bunifuLabel75);
             this.tabPage18.Controls.Add(this.bunifuLabel76);
             this.tabPage18.Location = new System.Drawing.Point(4, 4);
-            this.tabPage18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage18.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage18.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage18.Size = new System.Drawing.Size(1404, 429);
             this.tabPage18.TabIndex = 3;
             this.tabPage18.Text = "tabPage18";
@@ -4335,7 +4431,7 @@ namespace Bunifu_Testing
             this.bunifuLabel63.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel63.Location = new System.Drawing.Point(140, 319);
-            this.bunifuLabel63.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel63.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel63.Name = "bunifuLabel63";
             this.bunifuLabel63.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel63.Size = new System.Drawing.Size(954, 28);
@@ -4354,7 +4450,7 @@ namespace Bunifu_Testing
             this.bunifuLabel64.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel64.Location = new System.Drawing.Point(21, 319);
-            this.bunifuLabel64.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel64.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel64.Name = "bunifuLabel64";
             this.bunifuLabel64.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel64.Size = new System.Drawing.Size(104, 28);
@@ -4371,7 +4467,7 @@ namespace Bunifu_Testing
             this.bunifuLabel65.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel65.Location = new System.Drawing.Point(115, 246);
-            this.bunifuLabel65.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel65.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel65.Name = "bunifuLabel65";
             this.bunifuLabel65.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel65.Size = new System.Drawing.Size(1028, 28);
@@ -4390,7 +4486,7 @@ namespace Bunifu_Testing
             this.bunifuLabel66.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel66.Location = new System.Drawing.Point(21, 246);
-            this.bunifuLabel66.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel66.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel66.Name = "bunifuLabel66";
             this.bunifuLabel66.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel66.Size = new System.Drawing.Size(79, 28);
@@ -4407,7 +4503,7 @@ namespace Bunifu_Testing
             this.bunifuLabel67.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel67.Location = new System.Drawing.Point(272, 178);
-            this.bunifuLabel67.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel67.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel67.Name = "bunifuLabel67";
             this.bunifuLabel67.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel67.Size = new System.Drawing.Size(963, 28);
@@ -4426,7 +4522,7 @@ namespace Bunifu_Testing
             this.bunifuLabel68.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel68.Location = new System.Drawing.Point(24, 178);
-            this.bunifuLabel68.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel68.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel68.Name = "bunifuLabel68";
             this.bunifuLabel68.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel68.Size = new System.Drawing.Size(222, 28);
@@ -4443,7 +4539,7 @@ namespace Bunifu_Testing
             this.bunifuLabel69.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel69.Location = new System.Drawing.Point(303, 132);
-            this.bunifuLabel69.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel69.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel69.Name = "bunifuLabel69";
             this.bunifuLabel69.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel69.Size = new System.Drawing.Size(195, 28);
@@ -4460,7 +4556,7 @@ namespace Bunifu_Testing
             this.bunifuLabel70.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel70.Location = new System.Drawing.Point(24, 132);
-            this.bunifuLabel70.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel70.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel70.Name = "bunifuLabel70";
             this.bunifuLabel70.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel70.Size = new System.Drawing.Size(254, 28);
@@ -4477,7 +4573,7 @@ namespace Bunifu_Testing
             this.bunifuLabel71.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel71.Location = new System.Drawing.Point(199, 86);
-            this.bunifuLabel71.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel71.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel71.Name = "bunifuLabel71";
             this.bunifuLabel71.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel71.Size = new System.Drawing.Size(76, 28);
@@ -4494,7 +4590,7 @@ namespace Bunifu_Testing
             this.bunifuLabel72.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel72.Location = new System.Drawing.Point(24, 86);
-            this.bunifuLabel72.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel72.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel72.Name = "bunifuLabel72";
             this.bunifuLabel72.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel72.Size = new System.Drawing.Size(156, 28);
@@ -4511,7 +4607,7 @@ namespace Bunifu_Testing
             this.bunifuLabel73.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel73.Location = new System.Drawing.Point(24, 34);
-            this.bunifuLabel73.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel73.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel73.Name = "bunifuLabel73";
             this.bunifuLabel73.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel73.Size = new System.Drawing.Size(173, 32);
@@ -4528,7 +4624,7 @@ namespace Bunifu_Testing
             this.bunifuLabel74.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel74.Location = new System.Drawing.Point(21, 267);
-            this.bunifuLabel74.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel74.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel74.Name = "bunifuLabel74";
             this.bunifuLabel74.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel74.Size = new System.Drawing.Size(148, 28);
@@ -4545,7 +4641,7 @@ namespace Bunifu_Testing
             this.bunifuLabel75.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel75.Location = new System.Drawing.Point(24, 201);
-            this.bunifuLabel75.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel75.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel75.Name = "bunifuLabel75";
             this.bunifuLabel75.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel75.Size = new System.Drawing.Size(1146, 28);
@@ -4563,7 +4659,7 @@ namespace Bunifu_Testing
             this.bunifuLabel76.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel76.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel76.Location = new System.Drawing.Point(21, 341);
-            this.bunifuLabel76.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel76.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel76.Name = "bunifuLabel76";
             this.bunifuLabel76.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel76.Size = new System.Drawing.Size(313, 28);
@@ -4587,9 +4683,9 @@ namespace Bunifu_Testing
             this.tabPage19.Controls.Add(this.bunifuLabel86);
             this.tabPage19.Controls.Add(this.bunifuLabel87);
             this.tabPage19.Location = new System.Drawing.Point(4, 4);
-            this.tabPage19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage19.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage19.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage19.Size = new System.Drawing.Size(1404, 429);
             this.tabPage19.TabIndex = 4;
             this.tabPage19.Text = "tabPage19";
@@ -4602,7 +4698,7 @@ namespace Bunifu_Testing
             this.bunifuLabel77.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel77.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel77.Location = new System.Drawing.Point(548, 228);
-            this.bunifuLabel77.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel77.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel77.Name = "bunifuLabel77";
             this.bunifuLabel77.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel77.Size = new System.Drawing.Size(746, 28);
@@ -4621,7 +4717,7 @@ namespace Bunifu_Testing
             this.bunifuLabel78.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel78.Location = new System.Drawing.Point(25, 228);
-            this.bunifuLabel78.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel78.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel78.Name = "bunifuLabel78";
             this.bunifuLabel78.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel78.Size = new System.Drawing.Size(486, 28);
@@ -4638,7 +4734,7 @@ namespace Bunifu_Testing
             this.bunifuLabel79.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel79.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel79.Location = new System.Drawing.Point(411, 178);
-            this.bunifuLabel79.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel79.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel79.Name = "bunifuLabel79";
             this.bunifuLabel79.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel79.Size = new System.Drawing.Size(548, 28);
@@ -4656,7 +4752,7 @@ namespace Bunifu_Testing
             this.bunifuLabel80.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel80.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel80.Location = new System.Drawing.Point(25, 178);
-            this.bunifuLabel80.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel80.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel80.Name = "bunifuLabel80";
             this.bunifuLabel80.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel80.Size = new System.Drawing.Size(356, 28);
@@ -4673,7 +4769,7 @@ namespace Bunifu_Testing
             this.bunifuLabel81.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel81.Location = new System.Drawing.Point(304, 132);
-            this.bunifuLabel81.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel81.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel81.Name = "bunifuLabel81";
             this.bunifuLabel81.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel81.Size = new System.Drawing.Size(468, 28);
@@ -4690,7 +4786,7 @@ namespace Bunifu_Testing
             this.bunifuLabel82.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel82.Location = new System.Drawing.Point(25, 132);
-            this.bunifuLabel82.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel82.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel82.Name = "bunifuLabel82";
             this.bunifuLabel82.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel82.Size = new System.Drawing.Size(254, 28);
@@ -4707,7 +4803,7 @@ namespace Bunifu_Testing
             this.bunifuLabel83.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel83.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel83.Location = new System.Drawing.Point(371, 86);
-            this.bunifuLabel83.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel83.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel83.Name = "bunifuLabel83";
             this.bunifuLabel83.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel83.Size = new System.Drawing.Size(157, 28);
@@ -4724,7 +4820,7 @@ namespace Bunifu_Testing
             this.bunifuLabel84.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel84.Location = new System.Drawing.Point(25, 86);
-            this.bunifuLabel84.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel84.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel84.Name = "bunifuLabel84";
             this.bunifuLabel84.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel84.Size = new System.Drawing.Size(317, 28);
@@ -4741,7 +4837,7 @@ namespace Bunifu_Testing
             this.bunifuLabel85.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel85.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel85.Location = new System.Drawing.Point(25, 34);
-            this.bunifuLabel85.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel85.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel85.Name = "bunifuLabel85";
             this.bunifuLabel85.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel85.Size = new System.Drawing.Size(83, 32);
@@ -4758,7 +4854,7 @@ namespace Bunifu_Testing
             this.bunifuLabel86.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel86.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel86.Location = new System.Drawing.Point(25, 250);
-            this.bunifuLabel86.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel86.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel86.Name = "bunifuLabel86";
             this.bunifuLabel86.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel86.Size = new System.Drawing.Size(1173, 28);
@@ -4776,7 +4872,7 @@ namespace Bunifu_Testing
             this.bunifuLabel87.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel87.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel87.Location = new System.Drawing.Point(25, 273);
-            this.bunifuLabel87.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel87.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel87.Name = "bunifuLabel87";
             this.bunifuLabel87.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel87.Size = new System.Drawing.Size(295, 28);
@@ -4799,9 +4895,9 @@ namespace Bunifu_Testing
             this.tabPage20.Controls.Add(this.bunifuLabel96);
             this.tabPage20.Controls.Add(this.bunifuLabel97);
             this.tabPage20.Location = new System.Drawing.Point(4, 4);
-            this.tabPage20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage20.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage20.Name = "tabPage20";
-            this.tabPage20.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage20.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage20.Size = new System.Drawing.Size(1404, 429);
             this.tabPage20.TabIndex = 5;
             this.tabPage20.Text = "tabPage20";
@@ -4814,7 +4910,7 @@ namespace Bunifu_Testing
             this.bunifuLabel88.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel88.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel88.Location = new System.Drawing.Point(549, 228);
-            this.bunifuLabel88.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel88.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel88.Name = "bunifuLabel88";
             this.bunifuLabel88.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel88.Size = new System.Drawing.Size(478, 28);
@@ -4832,7 +4928,7 @@ namespace Bunifu_Testing
             this.bunifuLabel89.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel89.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel89.Location = new System.Drawing.Point(27, 228);
-            this.bunifuLabel89.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel89.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel89.Name = "bunifuLabel89";
             this.bunifuLabel89.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel89.Size = new System.Drawing.Size(486, 28);
@@ -4849,7 +4945,7 @@ namespace Bunifu_Testing
             this.bunifuLabel90.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel90.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel90.Location = new System.Drawing.Point(412, 178);
-            this.bunifuLabel90.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel90.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel90.Name = "bunifuLabel90";
             this.bunifuLabel90.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel90.Size = new System.Drawing.Size(318, 28);
@@ -4867,7 +4963,7 @@ namespace Bunifu_Testing
             this.bunifuLabel91.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel91.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel91.Location = new System.Drawing.Point(27, 178);
-            this.bunifuLabel91.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel91.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel91.Name = "bunifuLabel91";
             this.bunifuLabel91.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel91.Size = new System.Drawing.Size(356, 28);
@@ -4884,7 +4980,7 @@ namespace Bunifu_Testing
             this.bunifuLabel92.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel92.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel92.Location = new System.Drawing.Point(305, 132);
-            this.bunifuLabel92.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel92.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel92.Name = "bunifuLabel92";
             this.bunifuLabel92.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel92.Size = new System.Drawing.Size(468, 28);
@@ -4901,7 +4997,7 @@ namespace Bunifu_Testing
             this.bunifuLabel93.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel93.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel93.Location = new System.Drawing.Point(27, 132);
-            this.bunifuLabel93.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel93.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel93.Name = "bunifuLabel93";
             this.bunifuLabel93.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel93.Size = new System.Drawing.Size(254, 28);
@@ -4918,7 +5014,7 @@ namespace Bunifu_Testing
             this.bunifuLabel94.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel94.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel94.Location = new System.Drawing.Point(372, 86);
-            this.bunifuLabel94.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel94.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel94.Name = "bunifuLabel94";
             this.bunifuLabel94.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel94.Size = new System.Drawing.Size(146, 28);
@@ -4935,7 +5031,7 @@ namespace Bunifu_Testing
             this.bunifuLabel95.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel95.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel95.Location = new System.Drawing.Point(27, 86);
-            this.bunifuLabel95.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel95.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel95.Name = "bunifuLabel95";
             this.bunifuLabel95.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel95.Size = new System.Drawing.Size(317, 28);
@@ -4952,7 +5048,7 @@ namespace Bunifu_Testing
             this.bunifuLabel96.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel96.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel96.Location = new System.Drawing.Point(27, 34);
-            this.bunifuLabel96.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel96.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel96.Name = "bunifuLabel96";
             this.bunifuLabel96.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel96.Size = new System.Drawing.Size(61, 32);
@@ -4969,7 +5065,7 @@ namespace Bunifu_Testing
             this.bunifuLabel97.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel97.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel97.Location = new System.Drawing.Point(27, 250);
-            this.bunifuLabel97.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel97.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel97.Name = "bunifuLabel97";
             this.bunifuLabel97.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel97.Size = new System.Drawing.Size(191, 28);
@@ -4992,9 +5088,9 @@ namespace Bunifu_Testing
             this.tabPage21.Controls.Add(this.bunifuLabel106);
             this.tabPage21.Controls.Add(this.bunifuLabel107);
             this.tabPage21.Location = new System.Drawing.Point(4, 4);
-            this.tabPage21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage21.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage21.Name = "tabPage21";
-            this.tabPage21.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage21.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage21.Size = new System.Drawing.Size(1404, 429);
             this.tabPage21.TabIndex = 6;
             this.tabPage21.Text = "tabPage21";
@@ -5007,7 +5103,7 @@ namespace Bunifu_Testing
             this.bunifuLabel98.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel98.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel98.Location = new System.Drawing.Point(548, 228);
-            this.bunifuLabel98.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel98.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel98.Name = "bunifuLabel98";
             this.bunifuLabel98.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel98.Size = new System.Drawing.Size(290, 28);
@@ -5025,7 +5121,7 @@ namespace Bunifu_Testing
             this.bunifuLabel99.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel99.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel99.Location = new System.Drawing.Point(25, 228);
-            this.bunifuLabel99.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel99.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel99.Name = "bunifuLabel99";
             this.bunifuLabel99.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel99.Size = new System.Drawing.Size(486, 28);
@@ -5042,7 +5138,7 @@ namespace Bunifu_Testing
             this.bunifuLabel100.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel100.Location = new System.Drawing.Point(411, 178);
-            this.bunifuLabel100.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel100.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel100.Name = "bunifuLabel100";
             this.bunifuLabel100.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel100.Size = new System.Drawing.Size(612, 28);
@@ -5060,7 +5156,7 @@ namespace Bunifu_Testing
             this.bunifuLabel101.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel101.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel101.Location = new System.Drawing.Point(25, 178);
-            this.bunifuLabel101.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel101.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel101.Name = "bunifuLabel101";
             this.bunifuLabel101.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel101.Size = new System.Drawing.Size(356, 28);
@@ -5077,7 +5173,7 @@ namespace Bunifu_Testing
             this.bunifuLabel102.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel102.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel102.Location = new System.Drawing.Point(304, 132);
-            this.bunifuLabel102.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel102.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel102.Name = "bunifuLabel102";
             this.bunifuLabel102.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel102.Size = new System.Drawing.Size(460, 28);
@@ -5094,7 +5190,7 @@ namespace Bunifu_Testing
             this.bunifuLabel103.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel103.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel103.Location = new System.Drawing.Point(25, 132);
-            this.bunifuLabel103.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel103.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel103.Name = "bunifuLabel103";
             this.bunifuLabel103.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel103.Size = new System.Drawing.Size(254, 28);
@@ -5111,7 +5207,7 @@ namespace Bunifu_Testing
             this.bunifuLabel104.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel104.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel104.Location = new System.Drawing.Point(371, 86);
-            this.bunifuLabel104.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel104.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel104.Name = "bunifuLabel104";
             this.bunifuLabel104.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel104.Size = new System.Drawing.Size(146, 28);
@@ -5128,7 +5224,7 @@ namespace Bunifu_Testing
             this.bunifuLabel105.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel105.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel105.Location = new System.Drawing.Point(25, 86);
-            this.bunifuLabel105.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel105.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel105.Name = "bunifuLabel105";
             this.bunifuLabel105.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel105.Size = new System.Drawing.Size(317, 28);
@@ -5145,7 +5241,7 @@ namespace Bunifu_Testing
             this.bunifuLabel106.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel106.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel106.Location = new System.Drawing.Point(25, 34);
-            this.bunifuLabel106.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel106.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel106.Name = "bunifuLabel106";
             this.bunifuLabel106.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel106.Size = new System.Drawing.Size(135, 32);
@@ -5162,7 +5258,7 @@ namespace Bunifu_Testing
             this.bunifuLabel107.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel107.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel107.Location = new System.Drawing.Point(25, 250);
-            this.bunifuLabel107.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel107.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel107.Name = "bunifuLabel107";
             this.bunifuLabel107.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel107.Size = new System.Drawing.Size(598, 28);
@@ -5185,9 +5281,9 @@ namespace Bunifu_Testing
             this.tabPage22.Controls.Add(this.bunifuLabel116);
             this.tabPage22.Controls.Add(this.bunifuLabel117);
             this.tabPage22.Location = new System.Drawing.Point(4, 4);
-            this.tabPage22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage22.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage22.Name = "tabPage22";
-            this.tabPage22.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage22.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage22.Size = new System.Drawing.Size(1404, 429);
             this.tabPage22.TabIndex = 7;
             this.tabPage22.Text = "tabPage22";
@@ -5200,7 +5296,7 @@ namespace Bunifu_Testing
             this.bunifuLabel108.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel108.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel108.Location = new System.Drawing.Point(548, 228);
-            this.bunifuLabel108.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel108.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel108.Name = "bunifuLabel108";
             this.bunifuLabel108.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel108.Size = new System.Drawing.Size(678, 28);
@@ -5219,7 +5315,7 @@ namespace Bunifu_Testing
             this.bunifuLabel109.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel109.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel109.Location = new System.Drawing.Point(25, 228);
-            this.bunifuLabel109.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel109.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel109.Name = "bunifuLabel109";
             this.bunifuLabel109.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel109.Size = new System.Drawing.Size(486, 28);
@@ -5236,7 +5332,7 @@ namespace Bunifu_Testing
             this.bunifuLabel110.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel110.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel110.Location = new System.Drawing.Point(411, 178);
-            this.bunifuLabel110.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel110.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel110.Name = "bunifuLabel110";
             this.bunifuLabel110.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel110.Size = new System.Drawing.Size(726, 28);
@@ -5254,7 +5350,7 @@ namespace Bunifu_Testing
             this.bunifuLabel111.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel111.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel111.Location = new System.Drawing.Point(25, 178);
-            this.bunifuLabel111.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel111.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel111.Name = "bunifuLabel111";
             this.bunifuLabel111.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel111.Size = new System.Drawing.Size(356, 28);
@@ -5271,7 +5367,7 @@ namespace Bunifu_Testing
             this.bunifuLabel112.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel112.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel112.Location = new System.Drawing.Point(304, 132);
-            this.bunifuLabel112.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel112.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel112.Name = "bunifuLabel112";
             this.bunifuLabel112.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel112.Size = new System.Drawing.Size(430, 28);
@@ -5288,7 +5384,7 @@ namespace Bunifu_Testing
             this.bunifuLabel113.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel113.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel113.Location = new System.Drawing.Point(25, 132);
-            this.bunifuLabel113.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel113.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel113.Name = "bunifuLabel113";
             this.bunifuLabel113.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel113.Size = new System.Drawing.Size(254, 28);
@@ -5305,7 +5401,7 @@ namespace Bunifu_Testing
             this.bunifuLabel114.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel114.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel114.Location = new System.Drawing.Point(371, 86);
-            this.bunifuLabel114.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel114.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel114.Name = "bunifuLabel114";
             this.bunifuLabel114.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel114.Size = new System.Drawing.Size(135, 28);
@@ -5322,7 +5418,7 @@ namespace Bunifu_Testing
             this.bunifuLabel115.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel115.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel115.Location = new System.Drawing.Point(25, 86);
-            this.bunifuLabel115.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel115.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel115.Name = "bunifuLabel115";
             this.bunifuLabel115.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel115.Size = new System.Drawing.Size(317, 28);
@@ -5339,7 +5435,7 @@ namespace Bunifu_Testing
             this.bunifuLabel116.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel116.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel116.Location = new System.Drawing.Point(25, 34);
-            this.bunifuLabel116.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel116.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel116.Name = "bunifuLabel116";
             this.bunifuLabel116.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel116.Size = new System.Drawing.Size(105, 32);
@@ -5356,7 +5452,7 @@ namespace Bunifu_Testing
             this.bunifuLabel117.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel117.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel117.Location = new System.Drawing.Point(25, 250);
-            this.bunifuLabel117.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel117.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel117.Name = "bunifuLabel117";
             this.bunifuLabel117.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel117.Size = new System.Drawing.Size(1118, 84);
@@ -5413,7 +5509,7 @@ namespace Bunifu_Testing
             this.VaccineTypebtn.IdleIconRightImage = null;
             this.VaccineTypebtn.IndicateFocus = false;
             this.VaccineTypebtn.Location = new System.Drawing.Point(783, 7);
-            this.VaccineTypebtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.VaccineTypebtn.Margin = new System.Windows.Forms.Padding(4);
             this.VaccineTypebtn.Name = "VaccineTypebtn";
             this.VaccineTypebtn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.VaccineTypebtn.OnDisabledState.BorderRadius = 1;
@@ -5466,7 +5562,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel13.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel13.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel13.Location = new System.Drawing.Point(4, 7);
-            this.bunifuShadowPanel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel13.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel13.Name = "bunifuShadowPanel13";
             this.bunifuShadowPanel13.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel13.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -5489,7 +5585,7 @@ namespace Bunifu_Testing
             this.bunifuLabel9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel9.Location = new System.Drawing.Point(0, 4);
-            this.bunifuLabel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel9.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel9.Name = "bunifuLabel9";
             this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel9.Size = new System.Drawing.Size(772, 217);
@@ -5504,9 +5600,9 @@ namespace Bunifu_Testing
             this.tabPage12.Controls.Add(this.bunifuShadowPanel15);
             this.tabPage12.Controls.Add(this.bunifuShadowPanel14);
             this.tabPage12.Location = new System.Drawing.Point(4, 4);
-            this.tabPage12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage12.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage12.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage12.Size = new System.Drawing.Size(1424, 724);
             this.tabPage12.TabIndex = 1;
             this.tabPage12.Text = "tabPage12";
@@ -5521,7 +5617,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel15.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel15.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel15.Location = new System.Drawing.Point(-1, 357);
-            this.bunifuShadowPanel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel15.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel15.Name = "bunifuShadowPanel15";
             this.bunifuShadowPanel15.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel15.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -5543,7 +5639,7 @@ namespace Bunifu_Testing
             this.bunifuPictureBox5.Image = global::Bunifu_Testing.Properties.Resources.vaccine_man_pic_Last_Mix_Text;
             this.bunifuPictureBox5.IsCircle = true;
             this.bunifuPictureBox5.Location = new System.Drawing.Point(176, -266);
-            this.bunifuPictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPictureBox5.Name = "bunifuPictureBox5";
             this.bunifuPictureBox5.Size = new System.Drawing.Size(1052, 1052);
             this.bunifuPictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -5562,7 +5658,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel14.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel14.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel14.Location = new System.Drawing.Point(-1, 7);
-            this.bunifuShadowPanel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel14.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel14.Name = "bunifuShadowPanel14";
             this.bunifuShadowPanel14.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel14.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -5584,7 +5680,7 @@ namespace Bunifu_Testing
             this.bunifuLabel118.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel118.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel118.Location = new System.Drawing.Point(9, 0);
-            this.bunifuLabel118.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel118.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel118.Name = "bunifuLabel118";
             this.bunifuLabel118.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel118.Size = new System.Drawing.Size(533, 32);
@@ -5603,7 +5699,7 @@ namespace Bunifu_Testing
             this.bunifuLabel119.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel119.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel119.Location = new System.Drawing.Point(9, 48);
-            this.bunifuLabel119.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel119.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel119.Name = "bunifuLabel119";
             this.bunifuLabel119.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel119.Size = new System.Drawing.Size(1347, 294);
@@ -5618,9 +5714,9 @@ namespace Bunifu_Testing
             this.tabPage13.Controls.Add(this.bunifuShadowPanel18);
             this.tabPage13.Controls.Add(this.bunifuShadowPanel16);
             this.tabPage13.Location = new System.Drawing.Point(4, 4);
-            this.tabPage13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage13.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage13.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage13.Size = new System.Drawing.Size(1424, 724);
             this.tabPage13.TabIndex = 2;
             this.tabPage13.Text = "tabPage13";
@@ -5635,7 +5731,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel18.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel18.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel18.Location = new System.Drawing.Point(-1, 423);
-            this.bunifuShadowPanel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel18.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel18.Name = "bunifuShadowPanel18";
             this.bunifuShadowPanel18.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel18.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -5657,7 +5753,7 @@ namespace Bunifu_Testing
             this.bunifuPictureBox6.Image = global::Bunifu_Testing.Properties.Resources.vaccination_pic_edited_Regular_Text;
             this.bunifuPictureBox6.IsCircle = true;
             this.bunifuPictureBox6.Location = new System.Drawing.Point(336, -193);
-            this.bunifuPictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPictureBox6.Name = "bunifuPictureBox6";
             this.bunifuPictureBox6.Size = new System.Drawing.Size(743, 743);
             this.bunifuPictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -5681,7 +5777,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel16.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel16.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel16.Location = new System.Drawing.Point(0, 7);
-            this.bunifuShadowPanel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel16.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel16.Name = "bunifuShadowPanel16";
             this.bunifuShadowPanel16.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel16.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -5703,7 +5799,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel17.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel17.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel17.Location = new System.Drawing.Point(4, 475);
-            this.bunifuShadowPanel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel17.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel17.Name = "bunifuShadowPanel17";
             this.bunifuShadowPanel17.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel17.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -5726,7 +5822,7 @@ namespace Bunifu_Testing
             this.bunifuLabel121.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel121.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel121.Location = new System.Drawing.Point(9, 318);
-            this.bunifuLabel121.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel121.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel121.Name = "bunifuLabel121";
             this.bunifuLabel121.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel121.Size = new System.Drawing.Size(1347, 86);
@@ -5746,7 +5842,7 @@ namespace Bunifu_Testing
             this.bunifuLabel122.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel122.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel122.Location = new System.Drawing.Point(9, 279);
-            this.bunifuLabel122.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel122.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel122.Name = "bunifuLabel122";
             this.bunifuLabel122.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel122.Size = new System.Drawing.Size(449, 32);
@@ -5765,7 +5861,7 @@ namespace Bunifu_Testing
             this.bunifuLabel123.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel123.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel123.Location = new System.Drawing.Point(9, 164);
-            this.bunifuLabel123.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel123.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel123.Name = "bunifuLabel123";
             this.bunifuLabel123.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel123.Size = new System.Drawing.Size(1347, 134);
@@ -5783,7 +5879,7 @@ namespace Bunifu_Testing
             this.bunifuLabel124.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel124.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel124.Location = new System.Drawing.Point(9, 126);
-            this.bunifuLabel124.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel124.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel124.Name = "bunifuLabel124";
             this.bunifuLabel124.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel124.Size = new System.Drawing.Size(439, 32);
@@ -5801,7 +5897,7 @@ namespace Bunifu_Testing
             this.bunifuLabel125.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel125.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel125.Location = new System.Drawing.Point(9, 0);
-            this.bunifuLabel125.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel125.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel125.Name = "bunifuLabel125";
             this.bunifuLabel125.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel125.Size = new System.Drawing.Size(873, 32);
@@ -5820,7 +5916,7 @@ namespace Bunifu_Testing
             this.bunifuLabel126.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel126.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel126.Location = new System.Drawing.Point(9, 34);
-            this.bunifuLabel126.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel126.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel126.Name = "bunifuLabel126";
             this.bunifuLabel126.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel126.Size = new System.Drawing.Size(1347, 134);
@@ -5835,9 +5931,9 @@ namespace Bunifu_Testing
             this.tabPage14.Controls.Add(this.bunifuShadowPanel21);
             this.tabPage14.Controls.Add(this.bunifuShadowPanel19);
             this.tabPage14.Location = new System.Drawing.Point(4, 4);
-            this.tabPage14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage14.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage14.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage14.Size = new System.Drawing.Size(1424, 724);
             this.tabPage14.TabIndex = 3;
             this.tabPage14.Text = "tabPage14";
@@ -5852,7 +5948,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel21.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel21.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel21.Location = new System.Drawing.Point(-5, 207);
-            this.bunifuShadowPanel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel21.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel21.Name = "bunifuShadowPanel21";
             this.bunifuShadowPanel21.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel21.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -5874,7 +5970,7 @@ namespace Bunifu_Testing
             this.bunifuPictureBox7.Image = global::Bunifu_Testing.Properties.Resources.vaccination_after_pic_Mix_Text;
             this.bunifuPictureBox7.IsCircle = true;
             this.bunifuPictureBox7.Location = new System.Drawing.Point(167, -185);
-            this.bunifuPictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPictureBox7.Name = "bunifuPictureBox7";
             this.bunifuPictureBox7.Size = new System.Drawing.Size(1005, 1005);
             this.bunifuPictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -5894,7 +5990,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel19.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel19.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel19.Location = new System.Drawing.Point(-5, 7);
-            this.bunifuShadowPanel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel19.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel19.Name = "bunifuShadowPanel19";
             this.bunifuShadowPanel19.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel19.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -5916,7 +6012,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel20.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel20.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel20.Location = new System.Drawing.Point(4, 475);
-            this.bunifuShadowPanel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel20.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel20.Name = "bunifuShadowPanel20";
             this.bunifuShadowPanel20.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel20.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -5939,7 +6035,7 @@ namespace Bunifu_Testing
             this.bunifuLabel127.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel127.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel127.Location = new System.Drawing.Point(32, 48);
-            this.bunifuLabel127.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel127.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel127.Name = "bunifuLabel127";
             this.bunifuLabel127.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel127.Size = new System.Drawing.Size(1347, 86);
@@ -5957,7 +6053,7 @@ namespace Bunifu_Testing
             this.bunifuLabel128.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel128.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.bunifuLabel128.Location = new System.Drawing.Point(9, 10);
-            this.bunifuLabel128.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel128.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel128.Name = "bunifuLabel128";
             this.bunifuLabel128.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel128.Size = new System.Drawing.Size(407, 32);
@@ -6014,7 +6110,7 @@ namespace Bunifu_Testing
             this.bunifuButton6.IdleIconRightImage = null;
             this.bunifuButton6.IndicateFocus = false;
             this.bunifuButton6.Location = new System.Drawing.Point(1049, 116);
-            this.bunifuButton6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton6.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton6.Name = "bunifuButton6";
             this.bunifuButton6.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton6.OnDisabledState.BorderRadius = 1;
@@ -6105,7 +6201,7 @@ namespace Bunifu_Testing
             this.bunifuButton5.IdleIconRightImage = null;
             this.bunifuButton5.IndicateFocus = false;
             this.bunifuButton5.Location = new System.Drawing.Point(691, 116);
-            this.bunifuButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuButton5.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuButton5.Name = "bunifuButton5";
             this.bunifuButton5.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton5.OnDisabledState.BorderRadius = 1;
@@ -6196,7 +6292,7 @@ namespace Bunifu_Testing
             this.VacInfobtn2.IdleIconRightImage = null;
             this.VacInfobtn2.IndicateFocus = false;
             this.VacInfobtn2.Location = new System.Drawing.Point(307, 116);
-            this.VacInfobtn2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.VacInfobtn2.Margin = new System.Windows.Forms.Padding(4);
             this.VacInfobtn2.Name = "VacInfobtn2";
             this.VacInfobtn2.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.VacInfobtn2.OnDisabledState.BorderRadius = 1;
@@ -6239,97 +6335,6 @@ namespace Bunifu_Testing
             this.VacInfobtn2.UseDefaultRadiusAndThickness = true;
             this.VacInfobtn2.Click += new System.EventHandler(this.VacInfobtn2_Click);
             // 
-            // VacInfobtn1
-            // 
-            this.VacInfobtn1.AllowAnimations = true;
-            this.VacInfobtn1.AllowMouseEffects = true;
-            this.VacInfobtn1.AllowToggling = false;
-            this.VacInfobtn1.AnimationSpeed = 200;
-            this.VacInfobtn1.AutoGenerateColors = false;
-            this.VacInfobtn1.AutoRoundBorders = false;
-            this.VacInfobtn1.AutoSizeLeftIcon = true;
-            this.VacInfobtn1.AutoSizeRightIcon = true;
-            this.VacInfobtn1.BackColor = System.Drawing.Color.Transparent;
-            this.VacInfobtn1.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
-            this.VacInfobtn1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("VacInfobtn1.BackgroundImage")));
-            this.VacInfobtn1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.VacInfobtn1.ButtonText = "What is Covid-19 Vaccine";
-            this.VacInfobtn1.ButtonTextMarginLeft = 0;
-            this.VacInfobtn1.ColorContrastOnClick = 45;
-            this.VacInfobtn1.ColorContrastOnHover = 45;
-            this.VacInfobtn1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.VacInfobtn1.CustomizableEdges = borderEdges7;
-            this.VacInfobtn1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.VacInfobtn1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.VacInfobtn1.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.VacInfobtn1.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.VacInfobtn1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.VacInfobtn1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.VacInfobtn1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
-            this.VacInfobtn1.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.VacInfobtn1.IconLeftCursor = System.Windows.Forms.Cursors.Default;
-            this.VacInfobtn1.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.VacInfobtn1.IconMarginLeft = 11;
-            this.VacInfobtn1.IconPadding = 10;
-            this.VacInfobtn1.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.VacInfobtn1.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.VacInfobtn1.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.VacInfobtn1.IconSize = 25;
-            this.VacInfobtn1.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
-            this.VacInfobtn1.IdleBorderRadius = 1;
-            this.VacInfobtn1.IdleBorderThickness = 1;
-            this.VacInfobtn1.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
-            this.VacInfobtn1.IdleIconLeftImage = null;
-            this.VacInfobtn1.IdleIconRightImage = null;
-            this.VacInfobtn1.IndicateFocus = false;
-            this.VacInfobtn1.Location = new System.Drawing.Point(4, 116);
-            this.VacInfobtn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.VacInfobtn1.Name = "VacInfobtn1";
-            this.VacInfobtn1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.VacInfobtn1.OnDisabledState.BorderRadius = 1;
-            this.VacInfobtn1.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.VacInfobtn1.OnDisabledState.BorderThickness = 1;
-            this.VacInfobtn1.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.VacInfobtn1.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.VacInfobtn1.OnDisabledState.IconLeftImage = null;
-            this.VacInfobtn1.OnDisabledState.IconRightImage = null;
-            this.VacInfobtn1.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(34)))), ((int)(((byte)(102)))));
-            this.VacInfobtn1.onHoverState.BorderRadius = 1;
-            this.VacInfobtn1.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.VacInfobtn1.onHoverState.BorderThickness = 1;
-            this.VacInfobtn1.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(34)))), ((int)(((byte)(102)))));
-            this.VacInfobtn1.onHoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
-            this.VacInfobtn1.onHoverState.IconLeftImage = null;
-            this.VacInfobtn1.onHoverState.IconRightImage = null;
-            this.VacInfobtn1.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
-            this.VacInfobtn1.OnIdleState.BorderRadius = 1;
-            this.VacInfobtn1.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.VacInfobtn1.OnIdleState.BorderThickness = 1;
-            this.VacInfobtn1.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
-            this.VacInfobtn1.OnIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
-            this.VacInfobtn1.OnIdleState.IconLeftImage = null;
-            this.VacInfobtn1.OnIdleState.IconRightImage = null;
-            this.VacInfobtn1.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
-            this.VacInfobtn1.OnPressedState.BorderRadius = 1;
-            this.VacInfobtn1.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.VacInfobtn1.OnPressedState.BorderThickness = 1;
-            this.VacInfobtn1.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
-            this.VacInfobtn1.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.VacInfobtn1.OnPressedState.IconLeftImage = null;
-            this.VacInfobtn1.OnPressedState.IconRightImage = null;
-            this.VacInfobtn1.Size = new System.Drawing.Size(295, 58);
-            this.VacInfobtn1.TabIndex = 5;
-            this.VacInfobtn1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.VacInfobtn1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.VacInfobtn1.TextMarginLeft = 0;
-            this.VacInfobtn1.TextPadding = new System.Windows.Forms.Padding(0);
-            this.VacInfobtn1.UseDefaultRadiusAndThickness = true;
-            this.VacInfobtn1.Click += new System.EventHandler(this.VacInfobtn1_Click);
-            // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
@@ -6338,9 +6343,9 @@ namespace Bunifu_Testing
             this.tabPage3.Controls.Add(this.bunifuShadowPanel2);
             this.tabPage3.Controls.Add(this.bunifuShadowPanel3);
             this.tabPage3.Location = new System.Drawing.Point(4, 4);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage3.Size = new System.Drawing.Size(1443, 926);
             this.tabPage3.TabIndex = 3;
             this.tabPage3.Text = "About";
@@ -6355,7 +6360,7 @@ namespace Bunifu_Testing
             this.bunifuLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.bunifuLabel1.Location = new System.Drawing.Point(51, 54);
-            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel1.Size = new System.Drawing.Size(305, 69);
@@ -6379,7 +6384,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel4.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel4.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel4.Location = new System.Drawing.Point(51, 459);
-            this.bunifuShadowPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel4.Name = "bunifuShadowPanel4";
             this.bunifuShadowPanel4.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel4.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -6401,7 +6406,7 @@ namespace Bunifu_Testing
             this.bunifuLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel6.ForeColor = System.Drawing.Color.LightGray;
             this.bunifuLabel6.Location = new System.Drawing.Point(40, 92);
-            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel6.Name = "bunifuLabel6";
             this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel6.Size = new System.Drawing.Size(445, 182);
@@ -6419,7 +6424,7 @@ namespace Bunifu_Testing
             this.bunifuLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel7.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.bunifuLabel7.Location = new System.Drawing.Point(97, 43);
-            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel7.Name = "bunifuLabel7";
             this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel7.Size = new System.Drawing.Size(160, 36);
@@ -6437,7 +6442,7 @@ namespace Bunifu_Testing
             this.bunifuPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox3.Image")));
             this.bunifuPictureBox3.IsCircle = true;
             this.bunifuPictureBox3.Location = new System.Drawing.Point(40, 23);
-            this.bunifuPictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPictureBox3.Name = "bunifuPictureBox3";
             this.bunifuPictureBox3.Size = new System.Drawing.Size(49, 49);
             this.bunifuPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -6460,7 +6465,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel2.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel2.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel2.Location = new System.Drawing.Point(636, 156);
-            this.bunifuShadowPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel2.Name = "bunifuShadowPanel2";
             this.bunifuShadowPanel2.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel2.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -6483,7 +6488,7 @@ namespace Bunifu_Testing
             this.bunifuPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox2.Image")));
             this.bunifuPictureBox2.IsCircle = true;
             this.bunifuPictureBox2.Location = new System.Drawing.Point(32, 21);
-            this.bunifuPictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPictureBox2.Name = "bunifuPictureBox2";
             this.bunifuPictureBox2.Size = new System.Drawing.Size(59, 59);
             this.bunifuPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -6500,7 +6505,7 @@ namespace Bunifu_Testing
             this.bunifuLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel5.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.bunifuLabel5.Location = new System.Drawing.Point(99, 39);
-            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel5.Name = "bunifuLabel5";
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel5.Size = new System.Drawing.Size(265, 39);
@@ -6519,7 +6524,7 @@ namespace Bunifu_Testing
             this.bunifuLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel4.ForeColor = System.Drawing.Color.LightGray;
             this.bunifuLabel4.Location = new System.Drawing.Point(32, 92);
-            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel4.Size = new System.Drawing.Size(509, 485);
@@ -6544,7 +6549,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel3.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel3.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel3.Location = new System.Drawing.Point(51, 156);
-            this.bunifuShadowPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel3.Name = "bunifuShadowPanel3";
             this.bunifuShadowPanel3.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel3.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -6568,7 +6573,7 @@ namespace Bunifu_Testing
             this.bunifuLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel3.ForeColor = System.Drawing.Color.LightGray;
             this.bunifuLabel3.Location = new System.Drawing.Point(40, 108);
-            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel3.Size = new System.Drawing.Size(493, 142);
@@ -6588,7 +6593,7 @@ namespace Bunifu_Testing
             this.bunifuPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox1.Image")));
             this.bunifuPictureBox1.IsCircle = true;
             this.bunifuPictureBox1.Location = new System.Drawing.Point(40, 28);
-            this.bunifuPictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPictureBox1.Name = "bunifuPictureBox1";
             this.bunifuPictureBox1.Size = new System.Drawing.Size(49, 49);
             this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -6605,7 +6610,7 @@ namespace Bunifu_Testing
             this.bunifuLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel2.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.bunifuLabel2.Location = new System.Drawing.Point(97, 46);
-            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel2.Size = new System.Drawing.Size(83, 36);
@@ -6619,9 +6624,9 @@ namespace Bunifu_Testing
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
             this.tabPage6.Location = new System.Drawing.Point(4, 4);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage6.Size = new System.Drawing.Size(1443, 926);
             this.tabPage6.TabIndex = 4;
             this.tabPage6.Text = "Region";
@@ -6633,9 +6638,9 @@ namespace Bunifu_Testing
             this.tabPage7.Controls.Add(this.bunifuLabel23);
             this.tabPage7.Controls.Add(this.bunifuShadowPanel7);
             this.tabPage7.Location = new System.Drawing.Point(4, 4);
-            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage7.Size = new System.Drawing.Size(1443, 926);
             this.tabPage7.TabIndex = 5;
             this.tabPage7.Text = "City";
@@ -6649,7 +6654,7 @@ namespace Bunifu_Testing
             this.bunifuLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel23.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.bunifuLabel23.Location = new System.Drawing.Point(36, 54);
-            this.bunifuLabel23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel23.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel23.Name = "bunifuLabel23";
             this.bunifuLabel23.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel23.Size = new System.Drawing.Size(107, 69);
@@ -6689,7 +6694,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel7.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuShadowPanel7.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel7.Location = new System.Drawing.Point(0, 156);
-            this.bunifuShadowPanel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuShadowPanel7.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuShadowPanel7.Name = "bunifuShadowPanel7";
             this.bunifuShadowPanel7.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuShadowPanel7.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
@@ -6710,7 +6715,7 @@ namespace Bunifu_Testing
             this.bunifuLabel20.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel20.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.bunifuLabel20.Location = new System.Drawing.Point(1027, 549);
-            this.bunifuLabel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel20.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel20.Name = "bunifuLabel20";
             this.bunifuLabel20.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel20.Size = new System.Drawing.Size(102, 32);
@@ -6727,7 +6732,7 @@ namespace Bunifu_Testing
             this.bunifuLabel19.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel19.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.bunifuLabel19.Location = new System.Drawing.Point(1032, 236);
-            this.bunifuLabel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel19.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel19.Name = "bunifuLabel19";
             this.bunifuLabel19.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel19.Size = new System.Drawing.Size(90, 32);
@@ -6744,7 +6749,7 @@ namespace Bunifu_Testing
             this.bunifuLabel18.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel18.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.bunifuLabel18.Location = new System.Drawing.Point(980, 645);
-            this.bunifuLabel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel18.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel18.Name = "bunifuLabel18";
             this.bunifuLabel18.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel18.Size = new System.Drawing.Size(199, 32);
@@ -6761,7 +6766,7 @@ namespace Bunifu_Testing
             this.bunifuLabel17.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel17.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.bunifuLabel17.Location = new System.Drawing.Point(980, 330);
-            this.bunifuLabel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel17.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel17.Name = "bunifuLabel17";
             this.bunifuLabel17.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel17.Size = new System.Drawing.Size(199, 32);
@@ -6852,7 +6857,7 @@ namespace Bunifu_Testing
             this.bunifuLabel16.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.bunifuLabel16.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.bunifuLabel16.Location = new System.Drawing.Point(788, 42);
-            this.bunifuLabel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel16.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel16.Name = "bunifuLabel16";
             this.bunifuLabel16.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel16.Size = new System.Drawing.Size(425, 36);
@@ -6869,7 +6874,7 @@ namespace Bunifu_Testing
             this.bunifuLabel15.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel15.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.bunifuLabel15.Location = new System.Drawing.Point(503, 665);
-            this.bunifuLabel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel15.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel15.Name = "bunifuLabel15";
             this.bunifuLabel15.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel15.Size = new System.Drawing.Size(102, 32);
@@ -6886,7 +6891,7 @@ namespace Bunifu_Testing
             this.bunifuLabel14.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel14.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.bunifuLabel14.Location = new System.Drawing.Point(140, 665);
-            this.bunifuLabel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel14.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel14.Name = "bunifuLabel14";
             this.bunifuLabel14.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel14.Size = new System.Drawing.Size(90, 32);
@@ -6908,7 +6913,7 @@ namespace Bunifu_Testing
             this.bunifuCircleProgress3.LineProgressThickness = 15;
             this.bunifuCircleProgress3.LineThickness = 15;
             this.bunifuCircleProgress3.Location = new System.Drawing.Point(425, 431);
-            this.bunifuCircleProgress3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuCircleProgress3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuCircleProgress3.Name = "bunifuCircleProgress3";
             this.bunifuCircleProgress3.ProgressAnimationSpeed = 200;
             this.bunifuCircleProgress3.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
@@ -6940,7 +6945,7 @@ namespace Bunifu_Testing
             this.bunifuLabel13.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.bunifuLabel13.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.bunifuLabel13.Location = new System.Drawing.Point(65, 386);
-            this.bunifuLabel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel13.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel13.Name = "bunifuLabel13";
             this.bunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel13.Size = new System.Drawing.Size(321, 36);
@@ -6962,7 +6967,7 @@ namespace Bunifu_Testing
             this.bunifuCircleProgress2.LineProgressThickness = 15;
             this.bunifuCircleProgress2.LineThickness = 15;
             this.bunifuCircleProgress2.Location = new System.Drawing.Point(65, 431);
-            this.bunifuCircleProgress2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuCircleProgress2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuCircleProgress2.Name = "bunifuCircleProgress2";
             this.bunifuCircleProgress2.ProgressAnimationSpeed = 200;
             this.bunifuCircleProgress2.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
@@ -7011,7 +7016,7 @@ namespace Bunifu_Testing
             this.bunifuPictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox4.Image")));
             this.bunifuPictureBox4.IsCircle = true;
             this.bunifuPictureBox4.Location = new System.Drawing.Point(656, 117);
-            this.bunifuPictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPictureBox4.Name = "bunifuPictureBox4";
             this.bunifuPictureBox4.Size = new System.Drawing.Size(77, 77);
             this.bunifuPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -7027,7 +7032,7 @@ namespace Bunifu_Testing
             this.bunifuLabel12.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel12.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.bunifuLabel12.Location = new System.Drawing.Point(65, 304);
-            this.bunifuLabel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel12.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel12.Name = "bunifuLabel12";
             this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel12.Size = new System.Drawing.Size(344, 36);
@@ -7045,7 +7050,7 @@ namespace Bunifu_Testing
             this.bunifuLabel11.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel11.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.bunifuLabel11.Location = new System.Drawing.Point(65, 53);
-            this.bunifuLabel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel11.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel11.Name = "bunifuLabel11";
             this.bunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel11.Size = new System.Drawing.Size(283, 60);
@@ -7066,7 +7071,7 @@ namespace Bunifu_Testing
             this.bunifuProgressBar3.BorderRadius = 9;
             this.bunifuProgressBar3.BorderThickness = 1;
             this.bunifuProgressBar3.Location = new System.Drawing.Point(65, 348);
-            this.bunifuProgressBar3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuProgressBar3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuProgressBar3.Maximum = 100;
             this.bunifuProgressBar3.MaximumValue = 100;
             this.bunifuProgressBar3.Minimum = 0;
@@ -7090,7 +7095,7 @@ namespace Bunifu_Testing
             this.bunifuLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 99.74999F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel10.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.bunifuLabel10.Location = new System.Drawing.Point(65, 118);
-            this.bunifuLabel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel10.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel10.Name = "bunifuLabel10";
             this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel10.Size = new System.Drawing.Size(745, 187);
@@ -7104,9 +7109,9 @@ namespace Bunifu_Testing
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
             this.tabPage8.Location = new System.Drawing.Point(4, 4);
-            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage8.Size = new System.Drawing.Size(1443, 926);
             this.tabPage8.TabIndex = 6;
             this.tabPage8.Text = "Welcome";
@@ -7152,6 +7157,94 @@ namespace Bunifu_Testing
             this.bunifuFormDock1.TitleBarOptions.UseBackColorOnDockingIndicators = false;
             this.bunifuFormDock1.FormDragging += new System.EventHandler<Bunifu.UI.WinForms.BunifuFormDock.FormDraggingEventArgs>(this.bunifuFormDock1_FormDragging);
             // 
+            // bunifuChartCanvas1
+            // 
+            this.bunifuChartCanvas1.AnimationDuration = 1000;
+            this.bunifuChartCanvas1.AnimationType = Bunifu.Charts.WinForms.BunifuChartCanvas.AnimationOptions.easeOutQuart;
+            this.bunifuChartCanvas1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
+            this.bunifuChartCanvas1.CanvasPadding = new System.Windows.Forms.Padding(0);
+            this.bunifuChartCanvas1.Labels = new string[] {
+        "Ilocos Region",
+        "CAR",
+        "Cagayan Valley",
+        "Central Luzon",
+        "NCR",
+        "Calabarzon",
+        "Bicol Region",
+        "Mimaropa",
+        "Western Visayas",
+        "Eastern Visayas",
+        "Central Visayas",
+        "Caraga",
+        "Northern Mindanao",
+        "Zamboanga Peninsula",
+        "Davao Region",
+        "Soccsksargen",
+        "BARMM"};
+            this.bunifuChartCanvas1.LegendAlignment = Bunifu.Charts.WinForms.BunifuChartCanvas.LegendAlignmentOptions.center;
+            this.bunifuChartCanvas1.LegendDisplay = true;
+            this.bunifuChartCanvas1.LegendFont = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuChartCanvas1.LegendForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuChartCanvas1.LegendFullWidth = false;
+            this.bunifuChartCanvas1.LegendPosition = Bunifu.Charts.WinForms.BunifuChartCanvas.PositionOptions.right;
+            this.bunifuChartCanvas1.LegendRevese = false;
+            this.bunifuChartCanvas1.LegendRTL = false;
+            this.bunifuChartCanvas1.Location = new System.Drawing.Point(741, 59);
+            this.bunifuChartCanvas1.Margin = new System.Windows.Forms.Padding(7, 9, 7, 9);
+            this.bunifuChartCanvas1.Name = "bunifuChartCanvas1";
+            this.bunifuChartCanvas1.ShowXAxis = false;
+            this.bunifuChartCanvas1.ShowYAxis = false;
+            this.bunifuChartCanvas1.Size = new System.Drawing.Size(656, 349);
+            this.bunifuChartCanvas1.TabIndex = 20;
+            this.bunifuChartCanvas1.Title = "";
+            this.bunifuChartCanvas1.TitleLineHeight = 1.2D;
+            this.bunifuChartCanvas1.TitlePadding = 10;
+            this.bunifuChartCanvas1.TitlePosition = Bunifu.Charts.WinForms.BunifuChartCanvas.PositionOptions.top;
+            this.bunifuChartCanvas1.TooltipBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas1.TooltipFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas1.TooltipForeColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuChartCanvas1.TooltipMode = Bunifu.Charts.WinForms.BunifuChartCanvas.TooltipModeOptions.nearest;
+            this.bunifuChartCanvas1.TooltipsEnabled = true;
+            this.bunifuChartCanvas1.XAxesBeginAtZero = true;
+            this.bunifuChartCanvas1.XAxesDrawTicks = true;
+            this.bunifuChartCanvas1.XAxesFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas1.XAxesForeColor = System.Drawing.SystemColors.ControlText;
+            this.bunifuChartCanvas1.XAxesGridColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas1.XAxesGridLines = false;
+            this.bunifuChartCanvas1.XAxesLabel = "";
+            this.bunifuChartCanvas1.XAxesLabelFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas1.XAxesLabelForeColor = System.Drawing.SystemColors.ControlText;
+            this.bunifuChartCanvas1.XAxesLineWidth = 1;
+            this.bunifuChartCanvas1.XAxesStacked = false;
+            this.bunifuChartCanvas1.XAxesZeroLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas1.XAxesZeroLineWidth = 1;
+            this.bunifuChartCanvas1.YAxesBeginAtZero = false;
+            this.bunifuChartCanvas1.YAxesDrawTicks = false;
+            this.bunifuChartCanvas1.YAxesFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas1.YAxesForeColor = System.Drawing.SystemColors.ControlText;
+            this.bunifuChartCanvas1.YAxesGridColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas1.YAxesGridLines = false;
+            this.bunifuChartCanvas1.YAxesLabel = "";
+            this.bunifuChartCanvas1.YAxesLabelFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas1.YAxesLabelForeColor = System.Drawing.SystemColors.ControlText;
+            this.bunifuChartCanvas1.YAxesLineWidth = 1;
+            this.bunifuChartCanvas1.YAxesStacked = false;
+            this.bunifuChartCanvas1.YAxesZeroLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas1.YAxesZeroLineWidth = 1;
+            // 
+            // bunifuPolarAreaChart1
+            // 
+            this.bunifuPolarAreaChart1.BackgroundColor = ((System.Collections.Generic.List<System.Drawing.Color>)(resources.GetObject("bunifuPolarAreaChart1.BackgroundColor")));
+            this.bunifuPolarAreaChart1.BorderAlign = Bunifu.Charts.WinForms.ChartTypes.BunifuPolarAreaChart.BorderAlignmentOptions.Centre;
+            this.bunifuPolarAreaChart1.BorderColor = ((System.Collections.Generic.List<System.Drawing.Color>)(resources.GetObject("bunifuPolarAreaChart1.BorderColor")));
+            this.bunifuPolarAreaChart1.BorderWidth = 0;
+            this.bunifuPolarAreaChart1.Data = ((System.Collections.Generic.List<double>)(resources.GetObject("bunifuPolarAreaChart1.Data")));
+            this.bunifuPolarAreaChart1.HoverBackgroundColor = System.Drawing.Color.Empty;
+            this.bunifuPolarAreaChart1.HoverBorderColor = System.Drawing.Color.Empty;
+            this.bunifuPolarAreaChart1.HoverBorderWidth = 0;
+            this.bunifuPolarAreaChart1.Label = "Label here";
+            this.bunifuPolarAreaChart1.TargetCanvas = this.bunifuChartCanvas1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -7161,7 +7254,7 @@ namespace Bunifu_Testing
             this.Controls.Add(this.bunifuPages1);
             this.Controls.Add(this.bunifuShadowPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Form1";
@@ -7194,6 +7287,7 @@ namespace Bunifu_Testing
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.bunifuShadowPanel6.ResumeLayout(false);
             this.bunifuShadowPanel6.PerformLayout();
+            this.bunifuShadowPanel5.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage1.ResumeLayout(false);
@@ -7529,6 +7623,8 @@ namespace Bunifu_Testing
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel128;
         private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox7;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel129;
+        private Bunifu.Charts.WinForms.BunifuChartCanvas bunifuChartCanvas1;
+        private Bunifu.Charts.WinForms.ChartTypes.BunifuPolarAreaChart bunifuPolarAreaChart1;
     }
 }
 
