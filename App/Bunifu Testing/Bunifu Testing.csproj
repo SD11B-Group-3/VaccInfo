@@ -232,6 +232,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest" />
     <None Include="packages.config" />
@@ -250,6 +251,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Philippines.xml" />
+    <None Include="Resources\vaccination after pic Mix Text.png" />
+    <None Include="Resources\vaccination pic edited Regular Text.png" />
+    <None Include="Resources\vaccine man pic Last Mix Text.png" />
+    <None Include="Resources\vaccine man pic edited Last.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
