@@ -558,6 +558,51 @@ namespace Bunifu_Testing
             bunifuPages4.PageIndex = 7;
             hideSubMenuVaccineInfo();
         }
+
+        private void bunifuChartCanvas1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label39_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuDropdown5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int j = bunifuDropdown5.SelectedIndex;
+
+            if (j == 0)
+            {
+                bunifuPages5.SetPage("CAR");
+            }
+
+            else if (j == 1)
+            {
+                bunifuPages5.SetPage("Cagayan Valley");
+            }
+
+            else
+            {
+                bunifuPages5.SetPage("Ilocos Region");
+            }
+        }
     }
 
 
