@@ -7235,6 +7235,9 @@
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
+  <data name="bunifuLabel120.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Microsoft Sans Serif'; font-size: 36pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(227, 227, 227); text-align: left; }</value>
+  </data>
   <data name="bunifuButton10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJYAAAAlCAYAAACgXxA5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -7262,17 +7265,621 @@
         QOgQ8Bf6dV2feQB7mW2vzM1s743xA31qlB+tCaZjAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="bunifuButton5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="VaccineBrandsPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAJYAAAAnCAYAAADtl7EyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACRSURBVHhe7dKxAUBAAMBAk/zK7GcM/WMAFdJdcVXaLGOb
-        +9jOE/4z93uspwDfGIuEsUgYi4SxSBiLhLFIGIuEsUgYi4SxSBiLhLFIGIuEsUgYi4SxSBiLhLFIGIuE
-        sUgYi4SxSBiLhLFIGIuEsUgYi4SxSBiLhLFIGIuEsUgYi4SxSBiLhLFILGOdx1OA19Z5XLF9Eabs0yP2
-        AAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAANEAAAC8CAYAAADmUEtrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJMSURBVHhe7dOxjQJBEEXBNS8L1sS8DCAEQsAkDDI/BhgL
+        gbTinVlfKqfV7lvM7J+22x3W4Qpssp/pPDcOv+t6/AO2G92cZkKPiK7vnoDP7t3MhEQE3xARRCKCSEQQ
+        iQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKC
+        SEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIR
+        RCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGI
+        IBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohE
+        BJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEk
+        IohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgi
+        EUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQ
+        iQgiEUEkIohEBJGIIBIRRCKCSEQQiQgiEUEkIohEBJGIIBIRRCKCSEQQiQii14hO756Az0Y3l5nQc+Nw
+        vpcFbHIZfmY+Zvb9luUGOxl9aYmE5rYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bunifuButton15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAANEAAAAsCAYAAAD7Nl0oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACkSURBVHhe7dOpEYBAAARBQiEU8k/hwrgAeCyFuGJsiza7
+        erZ9P8btBH4ZT0RfB7BIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJ
+        CCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJI
+        RBA9Ec33CKw65gUGRsDQW395ugAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bunifuButton16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAANEAAAAvCAYAAAB9oi+GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACsSURBVHhe7dOpEYBAAARBQiEU8k/hwrgAeCyFuGJsiza7
+        erZ9P8btBH4ZT0RfB7BIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJ
+        CCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJI
+        RBCJCCIRQSQiiJ6I5nsEVh3zAsZyaxkORwc7AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bunifuButton17.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAANEAAAAvCAYAAAB9oi+GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACsSURBVHhe7dOpEYBAAARBQiEU8k/hwrgAeCyFuGJsiza7
+        erZ9P8btBH4ZT0RfB7BIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJ
+        CCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJI
+        RBCJCCIRQSQiiJ6I5nsEVh3zAsZyaxkORwc7AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bunifuButton18.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAANEAAAAvCAYAAAB9oi+GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACsSURBVHhe7dOpEYBAAARBQiEU8k/hwrgAeCyFuGJsiza7
+        erZ9P8btBH4ZT0RfB7BIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJ
+        CCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJI
+        RBCJCCIRQSQiiJ6I5nsEVh3zAsZyaxkORwc7AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="VaccineBrandsbtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAANEAAAAvCAYAAAB9oi+GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACsSURBVHhe7dOpEYBAAARBQiEU8k/hwrgAeCyFuGJsiza7
+        erZ9P8btBH4ZT0RfB7BIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJ
+        CCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJIRBCJCCIRQSQiiEQEkYggEhFEIoJI
+        RBCJCCIRQSQiiJ6I5nsEVh3zAsZyaxkORwc7AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="bunifuLabel22.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Microsoft Sans Serif'; font-size: 36pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(227, 227, 227); text-align: left; }</value>
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel21.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel24.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel25.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel26.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel27.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel28.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel28.Text" xml:space="preserve">
+    <value>protective immunity to it.  There are two types of whole virus vaccines. Live attenuated vaccines use a weakened form of the virus, which can still 
+grow and replicate, but does not cause illness. Inactivated vaccines contain viruses whose genetic material has been destroyed by heat, chemicals 
+or radiation so they cannot infect cells and replicate, but can still trigger an immune response.</value>
+  </data>
+  <data name="bunifuLabel29.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel30.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel31.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel32.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel33.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel34.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel35.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel36.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel37.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel38.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel39.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel40.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel40.Text" xml:space="preserve">
+    <value>specifically the virus’ spike protein. Once injected into the body, the mRNA instructs the cells to produce antigens - such as the spike protein 
+mentioned – which are then detected by immune cells, triggering a response by the body’s lymphocytes. The killer T-cells destroys
+the infected cells, while the B-cells and helper T-cells support antibody production. Whoever is exposed to the COVID-19 coronavirus in the 
+future would have an immune system that recognises it, and in turn fight off the infection.</value>
+  </data>
+  <data name="bunifuLabel41.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel42.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel43.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel44.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel45.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel46.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel47.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel48.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel49.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel50.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel51.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel52.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel53.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel54.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel54.Text" xml:space="preserve">
+    <value>for the antigen. In a COVID-19 vaccine, the “vector” is the spike proteins found on the surface of the coronavirus. Once the body’s cells are 
+“infected”, the cells are instructed to produce a large amount of antigens, which in turn trigger an immune response.</value>
+  </data>
+  <data name="bunifuLabel55.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel56.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel57.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel58.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel59.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel60.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel61.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel62.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel63.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel64.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel65.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel66.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel67.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel68.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel69.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel70.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel71.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel72.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel73.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel74.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel75.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel76.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel77.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel78.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel79.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel80.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel81.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel82.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel83.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel84.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel85.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel86.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel87.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel88.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel89.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel90.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel91.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel92.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel93.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel94.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel95.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel96.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel97.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel98.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel99.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel100.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel101.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel102.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel103.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel104.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel105.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel106.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel107.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel108.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel109.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel110.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel111.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel112.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel113.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel114.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel115.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel116.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel117.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel117.Text" xml:space="preserve">
+    <value>swelling, headache, asthenia (Weakness. Lack of energy and strength.), muscle or joint pain, malaise(overall feeling of discomfort), 
+sore throat, diarrhea, rhionrrhea (refers to a thin, mostly clear nasal discharge), loss of appetite, pain in the oropharynx, 
+nasal congestion (your nose becomes stuffed up and inflamed), colds, sneezing, cough</value>
+  </data>
+  <data name="animation2.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation2.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation2.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation2.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation2.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAgD8L
+</value>
+  </data>
+  <data name="VaccineTypesPanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQAAAAC7CAYAAACKCEBkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVHhe7dSxDQIxFAXBC+mCCwnpAEqgBELKoHPwgSNE
+        BbfzpEksp38XM7PleLyswxPYvdM8++/Gw3ldry+gYdz8bZ7/JwDPf5+Afdpufp6/AECNAECYAECYAECY
+        AECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECY
+        AECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECY
+        AECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECY
+        AECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECY
+        AECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECY
+        AECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECY
+        AECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECY
+        AECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECY
+        AECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAEDYbwBu/z4B+zRu/jHP
+        /7vxcN+qAOzeYzjM0zez5pblDTvN7GgirLR+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bunifuButton13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQAAAAAvCAYAAAAM/xQxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC6SURBVHhe7dQxEYAwAARBpERK/FuIjAgA0jI4uC22+e/v
+        GmOu1w3krBOAvwMIEAAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        EwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        EwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIOwHY3xEomPsBAH1Uu2eFleMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bunifuButton12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQAAAAAvCAYAAAAM/xQxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC6SURBVHhe7dQxEYAwAARBpERK/FuIjAgA0jI4uC22+e/v
+        GmOu1w3krBOAvwMIEAAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        EwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        EwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIOwHY3xEomPsBAH1Uu2eFleMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bunifuButton11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQAAAAAvCAYAAAAM/xQxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC6SURBVHhe7dQxEYAwAARBpERK/FuIjAgA0jI4uC22+e/v
+        GmOu1w3krBOAvwMIEAAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        EwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        EwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIOwHY3xEomPsBAH1Uu2eFleMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bunifuButton14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQAAAAAvCAYAAAAM/xQxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC6SURBVHhe7dQxEYAwAARBpERK/FuIjAgA0jI4uC22+e/v
+        GmOu1w3krBOAvwMIEAAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        EwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        EwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIOwHY3xEomPsBAH1Uu2eFleMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="VaccineTypebtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQAAAAAvCAYAAAAM/xQxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC6SURBVHhe7dQxEYAwAARBpERK/FuIjAgA0jI4uC22+e/v
+        GmOu1w3krBOAvwMIEAAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        EwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        EwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIOwHY3xEomPsBAH1Uu2eFleMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bunifuLabel9.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel9.Text" xml:space="preserve">
+    <value>A COVID‑19 vaccine is a vaccine intended to provide acquired immunity against 
+severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2), the virus causing 
+coronavirus disease (COVID‑19). Most of the Covid-19 Vaccines work by triggering
+the immune system by inactivated coronavirus or part of it. It does not cause 
+Covid-19 but alerts and equips the immune system to fight it in the Future.
+All vaccines work by training the immune system to respond to future infection. 
+Vaccines are overwhelmingly safe for the majority of people who receive them, 
+and they do not cause corona virus or any disease.</value>
+  </data>
+  <data name="bunifuPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAABC4AAAASCAYAAACU2J9jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC3SURBVHhe7dvBCcAgEERR+6/H/hI8bECSc5yF90DCt4Qh
+        DgAAAIB4c86rvnW01lprrbXWWmut/+66e7wuAAAAAA6yVQAAAACxtuHCigEAAAAkMVwAAAAAPRguAAAA
+        gCS2CgAAACCWpyIAAABALMMFAAAA0IPhAgAAAEhiqwAAAABieSoCAAAAxDJcAAAAAD0YLgAAAIAk/rgA
+        AAAAYn1uFeuyjtZaa6211lprrfWpXl8AAACAYGPcHXurFbwmH0kAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bunifuLabel118.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel119.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel119.Text" xml:space="preserve">
+    <value>Vaccines train our immune system to recognize the targeted virus and create antibodies to fight off the disease without getting the disease itself. After vaccination, the body is ready to fight the virus if it is later exposed to it, thereby preventing illness.
+
+Most people who are infected with SARS-CoV-2, the virus that causes COVID-19, develop an immune response within the first few weeks, but we are still learning how strong and lasting that immune response is, and how it varies between different people.
+
+COVID-19 vaccines were evaluated in clinical trials and have been approved because those studies show that the vaccine significantly reduces the probability of contracting the virus.
+
+Based on what has been proved about vaccines for other diseases, the COVID-19 vaccine may help keep you from getting seriously ill, even if you do get the virus. Getting vaccinated also may protect people around you — particularly those at greater risk for severe illness from COVID-19.</value>
+  </data>
+  <data name="bunifuLabel121.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel122.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel123.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel123.Text" xml:space="preserve">
+    <value>You can use our hyperlink in the near you tab to register for the vaccination
+Most vaccination providers schedule vaccination appointments online. To schedule your COVID-19 vaccination appointment, 
+visit vaccine providers online scheduling services. If you have question about scheduling your vaccination appointment 
+contact a vaccination provider directly.</value>
+  </data>
+  <data name="bunifuLabel124.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel125.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel126.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel126.Text" xml:space="preserve">
+    <value>Contact your state health department to find additional vaccination locations in the area.
+Check your local news outlets. They may have information on how to get a vaccination appointment.
+Contact your local LGU officer for more information on vaccine centers</value>
+  </data>
+  <data name="bunifuLabel127.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel127.Text" xml:space="preserve">
+    <value>After 2 weeks from the second dose of Vaccine your immune system is powerful to fight against the Covid-19 Vaccine
+You may carry the virus and a Non-Vaccinated Indivual may get Covid-19 Virus. So, to avoid the spread wear a face mask
+even after Vaccination </value>
+  </data>
+  <data name="bunifuLabel128.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI Semibold'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(180, 183, 191); text-align: left; }</value>
+  </data>
+  <data name="animation3.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation3.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation3.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation3.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="animation3.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAgD8L
+</value>
+  </data>
+  <data name="bunifuButton6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAARgAAAAvCAYAAAA4htUtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADCSURBVHhe7dSrFYAwAARBSqEU+m8hZaQAPpaHC+tGjLnz
+        u+37MW4nwM/GE5ivA2CZwAAZgQEyAgNkBAbICAyQERggIzBARmCAjMAAGYEBMgIDZAQGyAgMkBEYICMw
+        QEZggIzAABmBATICA2QEBsgIDJARGCAjMEBGYICMwAAZgQEyAgNkBAbICAyQERggIzBARmCAjMAAGYEB
+        MgIDZAQGyAgMkBEYICMwQEZggIzAABmBATICA2QEBsg8gZnvEWDdMS+l1uytc+y/ZAAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="bunifuButton5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQcAAAAvCAYAAADuIw9IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC2SURBVHhe7dQ5EcAwAAPBQDEU86cQGAaQp8tkjoG32Ebq
+        7xhjno8L4ON841AHsDlxAJI4AEkcgCQOQBIHIIkDkMQBSOIAJHEAkjgASRyAJA5AEgcgiQOQxAFI4gAk
+        cQCSOABJHIAkDkASByCJA5DEAUjiACRxAJI4AEkcgCQOQBIHIIkDkMQBSOIAJHEAkjgASRyAJA5AEgcg
+        iQOQxAFI4gAkcQCSOABJHIAkDkB647D+I7C7uW4IAEEQmF0j6AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="VacInfobtn2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAARoAAAAvCAYAAAA8cwUQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADCSURBVHhe7dQrFcAwAATBSomU+LdQGRHQD+0rzLIBQ+74
+        HmPM83EBRM43NH8HwDZCA+SEBsgJDZATGiAnNEBOaICc0AA5oQFyQgPkhAbICQ2QExogJzRATmiAnNAA
+        OaEBckID5IQGyAkNkBMaICc0QE5ogJzQADmhAXJCA+SEBsgJDZATGiAnNEBOaICc0AA5oQFyQgPkhAbI
+        CQ2QExogJzRATmiAnNAAOaEBckID5IQGyAkNkBMaIPeGZn1HgH3mugEyQnle47EtSQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="VacInfobtn1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAN0AAAAvCAYAAABnns8IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACwSURBVHhe7dMrFcAwAATBSomU+LdQGRHQD+0rzaIBQ+7w
+        HmPM83EBifON7u8ANhEdxEQHMdFBTHQQEx3ERAcx0UFMdBATHcREBzHRQUx0EBMdxEQHMdFBTHQQEx3E
+        RAcx0UFMdBATHcREBzHRQUx0EBMdxEQHMdFBTHQQEx3ERAcx0UFMdBATHcREBzHRQUx0EBMdxEQHMdFB
+        THQQEx3ERAcx0UFMdBB7o1vfEdhlrhvsSLcSR5ofAAAAAABJRU5ErkJggg==
+</value>
   </data>
   <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Microsoft Sans Serif'; font-size: 36pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(227, 227, 227); text-align: left; }</value>
@@ -7497,35 +8104,35 @@
   <data name="bunifuLabel10.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Microsoft Sans Serif'; font-size: 99.74999pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(227, 227, 227); text-align: left; }</value>
   </data>
-  <data name="animation2.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation4.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation2.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation4.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation2.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation4.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation2.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation4.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="animation2.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="animation4.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
