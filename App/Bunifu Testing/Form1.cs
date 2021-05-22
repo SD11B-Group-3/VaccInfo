@@ -24,24 +24,11 @@ namespace Bunifu_Testing
 
         private void VaccineTypeandBrandsBtnDesign()
         {
-            VaccineTypesPanel.Visible = false;
-            VaccineBrandsPanel.Visible = false;
 
         }
 
         private void hideSubMenuVaccineInfo()
         {
-            if (VaccineTypesPanel.Visible == true)
-            {
-                VaccineTypesPanel.Visible = false;
-            }
-
-            if (VaccineBrandsPanel.Visible == true)
-            {
-                VaccineBrandsPanel.Visible = false;
-            }
-
-
 
         }
 
@@ -70,6 +57,7 @@ namespace Bunifu_Testing
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            bunifuPages1.SetPage("Welcome");
             webBrowser1.Navigate("https://www.google.com/maps/d/u/3/edit?mid=1nxLWoqE51wwPFIcAKE6Vw_uzvcJm9_3V&usp=sharing");
         }
 
@@ -481,84 +469,6 @@ namespace Bunifu_Testing
             Process.Start("https://www.manilacovid19vaccine.ph/home.php");
         }
 
-        private void VacInfobtn1_Click(object sender, EventArgs e)
-        {
-            bunifuPages3.PageIndex = 0;
-        }
-
-        private void VacInfobtn2_Click(object sender, EventArgs e)
-        {
-            bunifuPages3.PageIndex = 1;
-        }
-
-        private void bunifuButton5_Click(object sender, EventArgs e)
-        {
-            bunifuPages3.PageIndex = 2;
-        }
-
-        private void bunifuButton6_Click(object sender, EventArgs e)
-        {
-            bunifuPages3.PageIndex = 3;
-        }
-
-        private void VaccineTypebtn_Click(object sender, EventArgs e)
-        {
-            showSubMenuVaccineInfo(VaccineTypesPanel);
-        }
-
-        private void bunifuButton14_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 0;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton11_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 1;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton12_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 2;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton13_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 3;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void VaccineBrandsbtn_Click(object sender, EventArgs e)
-        {
-            showSubMenuVaccineInfo(VaccineBrandsPanel);
-        }
-
-        private void bunifuButton18_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 4;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton17_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 5;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton16_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 6;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton15_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 7;
-            hideSubMenuVaccineInfo();
-        }
-
         private void bunifuChartCanvas1_Load_1(object sender, EventArgs e)
         {
 
@@ -604,14 +514,143 @@ namespace Bunifu_Testing
             }
         }
 
-        private void bunifuLabel178_Click(object sender, EventArgs e)
+        private void bunifuLabel2_Click_1(object sender, EventArgs e)
         {
 
         }
 
-        private void bunifuPictureBox1_Click_1(object sender, EventArgs e)
+        private void bunifuPictureBox1_Click_2(object sender, EventArgs e)
         {
 
+        }
+
+        private void bunifuLabel6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuPictureBox16_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Guide3Importance_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Guide1DefinitionButtn_Click(object sender, EventArgs e)
+        {
+            indicator2.Left = ((Control)sender).Left;
+            GuidePages.SetPage("GuideDefinition");
+        }
+
+        private void Guide2VaccinesButtn_Click(object sender, EventArgs e)
+        {
+            indicator2.Left = ((Control)sender).Left;
+            GuidePages.SetPage("GuideVaccines");
+        }
+
+        private void Guide3ImportanceButtn_Click(object sender, EventArgs e)
+        {
+            indicator2.Left = ((Control)sender).Left;
+            GuidePages.SetPage("GuideImportance");
+        }
+
+        private void Guide4StepsButtn_Click(object sender, EventArgs e)
+        {
+            indicator2.Left = ((Control)sender).Left;
+            GuidePages.SetPage("GuideSteps");
+        }
+
+        private void Guide5AfterButtn_Click(object sender, EventArgs e)
+        {
+            indicator2.Left = ((Control)sender).Left;
+            GuidePages.SetPage("GuideAfter");
+        }
+
+        private void bunifuLabel30_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuImageButton5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuImageButton4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton16_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton17_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuImageButton14_Click(object sender, EventArgs e)
+        {
+            //minimize
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton15_Click(object sender, EventArgs e)
+        {
+            //close
+            this.Close();
+        }
+
+        private void bunifuImageButton6_Click(object sender, EventArgs e)
+        {
+            //minimize
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton7_Click(object sender, EventArgs e)
+        {
+            //close
+            this.Close();
+        }
+
+        private void bunifuImageButton8_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton9_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuImageButton10_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuImageButton12_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton13_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuButton5_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://www.manilacovid19vaccine.ph/home.php");
         }
     }
 
