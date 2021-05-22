@@ -603,6 +603,11 @@ namespace Bunifu_Testing
                 bunifuPages5.SetPage("Ilocos Region");
             }
         }
+
+        private void bunifuLabel178_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
