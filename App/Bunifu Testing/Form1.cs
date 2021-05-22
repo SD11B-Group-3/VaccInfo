@@ -583,6 +583,70 @@ namespace Bunifu_Testing
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void bunifuImageButton16_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton17_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuImageButton14_Click(object sender, EventArgs e)
+        {
+            //minimize
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton15_Click(object sender, EventArgs e)
+        {
+            //close
+            this.Close();
+        }
+
+        private void bunifuImageButton6_Click(object sender, EventArgs e)
+        {
+            //minimize
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton7_Click(object sender, EventArgs e)
+        {
+            //close
+            this.Close();
+        }
+
+        private void bunifuImageButton8_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton9_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuImageButton10_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuImageButton12_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton13_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 
 
