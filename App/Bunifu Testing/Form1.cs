@@ -24,24 +24,11 @@ namespace Bunifu_Testing
 
         private void VaccineTypeandBrandsBtnDesign()
         {
-            VaccineTypesPanel.Visible = false;
-            VaccineBrandsPanel.Visible = false;
 
         }
 
         private void hideSubMenuVaccineInfo()
         {
-            if (VaccineTypesPanel.Visible == true)
-            {
-                VaccineTypesPanel.Visible = false;
-            }
-
-            if (VaccineBrandsPanel.Visible == true)
-            {
-                VaccineBrandsPanel.Visible = false;
-            }
-
-
 
         }
 
@@ -481,84 +468,6 @@ namespace Bunifu_Testing
             Process.Start("https://www.manilacovid19vaccine.ph/home.php");
         }
 
-        private void VacInfobtn1_Click(object sender, EventArgs e)
-        {
-            bunifuPages3.PageIndex = 0;
-        }
-
-        private void VacInfobtn2_Click(object sender, EventArgs e)
-        {
-            bunifuPages3.PageIndex = 1;
-        }
-
-        private void bunifuButton5_Click(object sender, EventArgs e)
-        {
-            bunifuPages3.PageIndex = 2;
-        }
-
-        private void bunifuButton6_Click(object sender, EventArgs e)
-        {
-            bunifuPages3.PageIndex = 3;
-        }
-
-        private void VaccineTypebtn_Click(object sender, EventArgs e)
-        {
-            showSubMenuVaccineInfo(VaccineTypesPanel);
-        }
-
-        private void bunifuButton14_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 0;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton11_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 1;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton12_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 2;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton13_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 3;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void VaccineBrandsbtn_Click(object sender, EventArgs e)
-        {
-            showSubMenuVaccineInfo(VaccineBrandsPanel);
-        }
-
-        private void bunifuButton18_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 4;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton17_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 5;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton16_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 6;
-            hideSubMenuVaccineInfo();
-        }
-
-        private void bunifuButton15_Click(object sender, EventArgs e)
-        {
-            bunifuPages4.PageIndex = 7;
-            hideSubMenuVaccineInfo();
-        }
-
         private void bunifuChartCanvas1_Load_1(object sender, EventArgs e)
         {
 
@@ -636,7 +545,18 @@ namespace Bunifu_Testing
 
         private void bunifuPictureBox16_Click(object sender, EventArgs e)
         {
-                    }
+            
+        }
+
+        private void Guide3Importance_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuButton8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
