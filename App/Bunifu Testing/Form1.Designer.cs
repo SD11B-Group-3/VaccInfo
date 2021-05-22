@@ -320,6 +320,10 @@ namespace Bunifu_Testing
             this.bunifuLabel35 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel36 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel37 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel38 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel39 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel40 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel41 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -6434,6 +6438,10 @@ namespace Bunifu_Testing
             this.flowLayoutPanel1.Controls.Add(this.bunifuLabel35);
             this.flowLayoutPanel1.Controls.Add(this.bunifuLabel36);
             this.flowLayoutPanel1.Controls.Add(this.bunifuLabel37);
+            this.flowLayoutPanel1.Controls.Add(this.bunifuLabel38);
+            this.flowLayoutPanel1.Controls.Add(this.bunifuLabel39);
+            this.flowLayoutPanel1.Controls.Add(this.bunifuLabel40);
+            this.flowLayoutPanel1.Controls.Add(this.bunifuLabel41);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(25, 27);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -6662,6 +6670,75 @@ namespace Bunifu_Testing
             this.bunifuLabel37.Text = resources.GetString("bunifuLabel37.Text");
             this.bunifuLabel37.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel37.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel38
+            // 
+            this.bunifuLabel38.AllowParentOverrides = false;
+            this.bunifuLabel38.AutoEllipsis = false;
+            this.bunifuLabel38.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel38.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel38.Font = new System.Drawing.Font("Montserrat Medium", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel38.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bunifuLabel38.Location = new System.Drawing.Point(3, 1052);
+            this.bunifuLabel38.Margin = new System.Windows.Forms.Padding(3, 50, 3, 3);
+            this.bunifuLabel38.Name = "bunifuLabel38";
+            this.bunifuLabel38.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel38.Size = new System.Drawing.Size(235, 37);
+            this.bunifuLabel38.TabIndex = 41;
+            this.bunifuLabel38.Text = "Protein SubUnit";
+            this.bunifuLabel38.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel38.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel39
+            // 
+            this.bunifuLabel39.AllowParentOverrides = false;
+            this.bunifuLabel39.AutoEllipsis = false;
+            this.bunifuLabel39.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel39.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel39.Font = new System.Drawing.Font("Montserrat", 18F);
+            this.bunifuLabel39.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bunifuLabel39.Location = new System.Drawing.Point(3, 1095);
+            this.bunifuLabel39.Name = "bunifuLabel39";
+            this.bunifuLabel39.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel39.Size = new System.Drawing.Size(317, 33);
+            this.bunifuLabel39.TabIndex = 42;
+            this.bunifuLabel39.Text = "Vaccines Include: Novavax";
+            this.bunifuLabel39.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel39.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel40
+            // 
+            this.bunifuLabel40.AllowParentOverrides = false;
+            this.bunifuLabel40.AutoEllipsis = false;
+            this.bunifuLabel40.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel40.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel40.Font = new System.Drawing.Font("Montserrat", 18F);
+            this.bunifuLabel40.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bunifuLabel40.Location = new System.Drawing.Point(3, 1134);
+            this.bunifuLabel40.Name = "bunifuLabel40";
+            this.bunifuLabel40.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel40.Size = new System.Drawing.Size(614, 33);
+            this.bunifuLabel40.TabIndex = 43;
+            this.bunifuLabel40.Text = "Number of Doses Required: 2 Doses, Intramuscular";
+            this.bunifuLabel40.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel40.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel41
+            // 
+            this.bunifuLabel41.AllowParentOverrides = false;
+            this.bunifuLabel41.AutoEllipsis = false;
+            this.bunifuLabel41.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel41.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel41.Font = new System.Drawing.Font("Montserrat", 18F);
+            this.bunifuLabel41.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bunifuLabel41.Location = new System.Drawing.Point(3, 1173);
+            this.bunifuLabel41.Name = "bunifuLabel41";
+            this.bunifuLabel41.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel41.Size = new System.Drawing.Size(952, 132);
+            this.bunifuLabel41.TabIndex = 44;
+            this.bunifuLabel41.Text = resources.GetString("bunifuLabel41.Text");
+            this.bunifuLabel41.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel41.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // Form1
             // 
@@ -7041,6 +7118,10 @@ namespace Bunifu_Testing
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel35;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel36;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel37;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel38;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel39;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel40;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel41;
     }
 }
 
