@@ -613,6 +613,30 @@ namespace Bunifu_Testing
         {
 
         }
+
+        private void bunifuLabel18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuPictureBox1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuPictureBox16_Click(object sender, EventArgs e)
+        {
+                    }
     }
 
 
