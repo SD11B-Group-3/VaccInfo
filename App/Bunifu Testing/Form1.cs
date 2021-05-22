@@ -572,6 +572,16 @@ namespace Bunifu_Testing
         {
 
         }
+
+        private void bunifuImageButton5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuImageButton4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 
 
