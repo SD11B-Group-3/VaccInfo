@@ -57,6 +57,7 @@ namespace Bunifu_Testing
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            bunifuPages1.SetPage("Welcome");
             webBrowser1.Navigate("https://www.google.com/maps/d/u/3/edit?mid=1nxLWoqE51wwPFIcAKE6Vw_uzvcJm9_3V&usp=sharing");
         }
 
