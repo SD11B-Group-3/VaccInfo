@@ -567,6 +567,11 @@ namespace Bunifu_Testing
             indicator2.Left = ((Control)sender).Left;
             GuidePages.SetPage("GuideAfter");
         }
+
+        private void bunifuLabel30_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
