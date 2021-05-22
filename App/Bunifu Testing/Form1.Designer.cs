@@ -324,6 +324,10 @@ namespace Bunifu_Testing
             this.bunifuLabel39 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel40 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel41 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuShadowPanel14 = new Bunifu.UI.WinForms.BunifuShadowPanel();
+            this.bunifuLabel42 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel43 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel44 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -352,6 +356,7 @@ namespace Bunifu_Testing
             this.Guide1Definition.SuspendLayout();
             this.bunifuShadowPanel3.SuspendLayout();
             this.Guide2Vaccines.SuspendLayout();
+            this.Guide3Importance.SuspendLayout();
             this.HomeContactUs.SuspendLayout();
             this.bunifuShadowPanel2.SuspendLayout();
             this.bunifuShadowPanel4.SuspendLayout();
@@ -389,6 +394,7 @@ namespace Bunifu_Testing
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.bunifuShadowPanel13.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
+            this.bunifuShadowPanel14.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuShadowPanel1
@@ -3007,10 +3013,10 @@ namespace Bunifu_Testing
             this.GuidePages.Location = new System.Drawing.Point(-4, 180);
             this.GuidePages.Multiline = true;
             this.GuidePages.Name = "GuidePages";
-            this.GuidePages.Page = this.Guide2Vaccines;
-            this.GuidePages.PageIndex = 1;
-            this.GuidePages.PageName = "Guide2Vaccines";
-            this.GuidePages.PageTitle = "GuideVaccines";
+            this.GuidePages.Page = this.Guide3Importance;
+            this.GuidePages.PageIndex = 2;
+            this.GuidePages.PageName = "Guide3Importance";
+            this.GuidePages.PageTitle = "GuideImportance";
             this.GuidePages.SelectedIndex = 0;
             this.GuidePages.Size = new System.Drawing.Size(1088, 570);
             this.GuidePages.TabIndex = 21;
@@ -3084,6 +3090,7 @@ namespace Bunifu_Testing
             // Guide3Importance
             // 
             this.Guide3Importance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.Guide3Importance.Controls.Add(this.bunifuShadowPanel14);
             this.Guide3Importance.Location = new System.Drawing.Point(4, 4);
             this.Guide3Importance.Name = "Guide3Importance";
             this.Guide3Importance.Padding = new System.Windows.Forms.Padding(3);
@@ -6740,6 +6747,85 @@ namespace Bunifu_Testing
             this.bunifuLabel41.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel41.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
+            // bunifuShadowPanel14
+            // 
+            this.bunifuShadowPanel14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuShadowPanel14.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuShadowPanel14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(9)))));
+            this.bunifuShadowPanel14.BorderRadius = 1;
+            this.bunifuShadowPanel14.BorderThickness = 1;
+            this.bunifuShadowPanel14.CausesValidation = false;
+            this.bunifuShadowPanel14.Controls.Add(this.bunifuLabel44);
+            this.bunifuShadowPanel14.Controls.Add(this.bunifuLabel42);
+            this.bunifuShadowPanel14.Controls.Add(this.bunifuLabel43);
+            this.bunifuShadowPanel14.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
+            this.bunifuShadowPanel14.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuShadowPanel14.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
+            this.bunifuShadowPanel14.Location = new System.Drawing.Point(-6, -3);
+            this.bunifuShadowPanel14.Name = "bunifuShadowPanel14";
+            this.bunifuShadowPanel14.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
+            this.bunifuShadowPanel14.PanelColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
+            this.bunifuShadowPanel14.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(9)))));
+            this.bunifuShadowPanel14.ShadowDept = 2;
+            this.bunifuShadowPanel14.ShadowDepth = 5;
+            this.bunifuShadowPanel14.ShadowStyle = Bunifu.UI.WinForms.BunifuShadowPanel.ShadowStyles.Surrounded;
+            this.bunifuShadowPanel14.ShadowTopLeftVisible = false;
+            this.bunifuShadowPanel14.Size = new System.Drawing.Size(1090, 520);
+            this.bunifuShadowPanel14.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
+            this.bunifuShadowPanel14.TabIndex = 12;
+            // 
+            // bunifuLabel42
+            // 
+            this.bunifuLabel42.AllowParentOverrides = false;
+            this.bunifuLabel42.AutoEllipsis = false;
+            this.bunifuLabel42.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel42.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel42.Font = new System.Drawing.Font("Montserrat Medium", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel42.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bunifuLabel42.Location = new System.Drawing.Point(58, 127);
+            this.bunifuLabel42.Name = "bunifuLabel42";
+            this.bunifuLabel42.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel42.Size = new System.Drawing.Size(933, 116);
+            this.bunifuLabel42.TabIndex = 27;
+            this.bunifuLabel42.Text = resources.GetString("bunifuLabel42.Text");
+            this.bunifuLabel42.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel42.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel43
+            // 
+            this.bunifuLabel43.AllowParentOverrides = false;
+            this.bunifuLabel43.AutoEllipsis = false;
+            this.bunifuLabel43.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel43.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel43.Font = new System.Drawing.Font("Montserrat", 36F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel43.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bunifuLabel43.Location = new System.Drawing.Point(25, 40);
+            this.bunifuLabel43.Name = "bunifuLabel43";
+            this.bunifuLabel43.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel43.Size = new System.Drawing.Size(970, 66);
+            this.bunifuLabel43.TabIndex = 26;
+            this.bunifuLabel43.Text = "Why is Getting Vaccinated Important?";
+            this.bunifuLabel43.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel43.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel44
+            // 
+            this.bunifuLabel44.AllowParentOverrides = false;
+            this.bunifuLabel44.AutoEllipsis = false;
+            this.bunifuLabel44.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel44.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel44.Font = new System.Drawing.Font("Montserrat Medium", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel44.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bunifuLabel44.Location = new System.Drawing.Point(58, 291);
+            this.bunifuLabel44.Name = "bunifuLabel44";
+            this.bunifuLabel44.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel44.Size = new System.Drawing.Size(957, 145);
+            this.bunifuLabel44.TabIndex = 28;
+            this.bunifuLabel44.Text = resources.GetString("bunifuLabel44.Text");
+            this.bunifuLabel44.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel44.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -6791,6 +6877,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel3.ResumeLayout(false);
             this.bunifuShadowPanel3.PerformLayout();
             this.Guide2Vaccines.ResumeLayout(false);
+            this.Guide3Importance.ResumeLayout(false);
             this.HomeContactUs.ResumeLayout(false);
             this.HomeContactUs.PerformLayout();
             this.bunifuShadowPanel2.ResumeLayout(false);
@@ -6842,6 +6929,8 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel13.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
+            this.bunifuShadowPanel14.ResumeLayout(false);
+            this.bunifuShadowPanel14.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -7122,6 +7211,10 @@ namespace Bunifu_Testing
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel39;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel40;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel41;
+        private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel14;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel44;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel42;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel43;
     }
 }
 
