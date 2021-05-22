@@ -541,26 +541,31 @@ namespace Bunifu_Testing
         private void Guide1DefinitionButtn_Click(object sender, EventArgs e)
         {
             indicator2.Left = ((Control)sender).Left;
+            GuidePages.SetPage("GuideDefinition");
         }
 
         private void Guide2VaccinesButtn_Click(object sender, EventArgs e)
         {
             indicator2.Left = ((Control)sender).Left;
+            GuidePages.SetPage("GuideVaccines");
         }
 
         private void Guide3ImportanceButtn_Click(object sender, EventArgs e)
         {
             indicator2.Left = ((Control)sender).Left;
+            GuidePages.SetPage("GuideImportance");
         }
 
         private void Guide4StepsButtn_Click(object sender, EventArgs e)
         {
             indicator2.Left = ((Control)sender).Left;
+            GuidePages.SetPage("GuideSteps");
         }
 
         private void Guide5AfterButtn_Click(object sender, EventArgs e)
         {
             indicator2.Left = ((Control)sender).Left;
+            GuidePages.SetPage("GuideAfter");
         }
     }
 

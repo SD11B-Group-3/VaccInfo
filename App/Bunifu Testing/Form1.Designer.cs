@@ -421,7 +421,7 @@ namespace Bunifu_Testing
             // 
             this.bunifuButton4.AllowAnimations = true;
             this.bunifuButton4.AllowMouseEffects = true;
-            this.bunifuButton4.AllowToggling = true;
+            this.bunifuButton4.AllowToggling = false;
             this.bunifuButton4.AnimationSpeed = 200;
             this.bunifuButton4.AutoGenerateColors = false;
             this.bunifuButton4.AutoRoundBorders = false;
@@ -465,7 +465,7 @@ namespace Bunifu_Testing
             this.bunifuButton4.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuButton4.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton4.IdleIconLeftImage")));
             this.bunifuButton4.IdleIconRightImage = null;
-            this.bunifuButton4.IndicateFocus = true;
+            this.bunifuButton4.IndicateFocus = false;
             this.bunifuButton4.Location = new System.Drawing.Point(0, 323);
             this.bunifuButton4.Name = "bunifuButton4";
             this.bunifuButton4.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
@@ -513,7 +513,7 @@ namespace Bunifu_Testing
             // 
             this.bunifuButton3.AllowAnimations = true;
             this.bunifuButton3.AllowMouseEffects = true;
-            this.bunifuButton3.AllowToggling = true;
+            this.bunifuButton3.AllowToggling = false;
             this.bunifuButton3.AnimationSpeed = 200;
             this.bunifuButton3.AutoGenerateColors = false;
             this.bunifuButton3.AutoRoundBorders = false;
@@ -557,7 +557,7 @@ namespace Bunifu_Testing
             this.bunifuButton3.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuButton3.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton3.IdleIconLeftImage")));
             this.bunifuButton3.IdleIconRightImage = null;
-            this.bunifuButton3.IndicateFocus = true;
+            this.bunifuButton3.IndicateFocus = false;
             this.bunifuButton3.Location = new System.Drawing.Point(0, 259);
             this.bunifuButton3.Name = "bunifuButton3";
             this.bunifuButton3.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
@@ -605,7 +605,7 @@ namespace Bunifu_Testing
             // 
             this.bunifuButton2.AllowAnimations = true;
             this.bunifuButton2.AllowMouseEffects = true;
-            this.bunifuButton2.AllowToggling = true;
+            this.bunifuButton2.AllowToggling = false;
             this.bunifuButton2.AnimationSpeed = 200;
             this.bunifuButton2.AutoGenerateColors = false;
             this.bunifuButton2.AutoRoundBorders = false;
@@ -649,7 +649,7 @@ namespace Bunifu_Testing
             this.bunifuButton2.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuButton2.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton2.IdleIconLeftImage")));
             this.bunifuButton2.IdleIconRightImage = null;
-            this.bunifuButton2.IndicateFocus = true;
+            this.bunifuButton2.IndicateFocus = false;
             this.bunifuButton2.Location = new System.Drawing.Point(0, 195);
             this.bunifuButton2.Name = "bunifuButton2";
             this.bunifuButton2.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
@@ -697,7 +697,7 @@ namespace Bunifu_Testing
             // 
             this.bunifuButton1.AllowAnimations = true;
             this.bunifuButton1.AllowMouseEffects = true;
-            this.bunifuButton1.AllowToggling = true;
+            this.bunifuButton1.AllowToggling = false;
             this.bunifuButton1.AnimationSpeed = 200;
             this.bunifuButton1.AutoGenerateColors = false;
             this.bunifuButton1.AutoRoundBorders = false;
@@ -741,7 +741,7 @@ namespace Bunifu_Testing
             this.bunifuButton1.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
             this.bunifuButton1.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton1.IdleIconLeftImage")));
             this.bunifuButton1.IdleIconRightImage = null;
-            this.bunifuButton1.IndicateFocus = true;
+            this.bunifuButton1.IndicateFocus = false;
             this.bunifuButton1.Location = new System.Drawing.Point(0, 131);
             this.bunifuButton1.Name = "bunifuButton1";
             this.bunifuButton1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
