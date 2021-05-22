@@ -513,21 +513,6 @@ namespace Bunifu_Testing
             }
         }
 
-        private void bunifuLabel178_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuPictureBox1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuLabel18_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void bunifuLabel2_Click_1(object sender, EventArgs e)
         {
 
@@ -553,9 +538,29 @@ namespace Bunifu_Testing
 
         }
 
-        private void bunifuButton8_Click(object sender, EventArgs e)
+        private void Guide1DefinitionButtn_Click(object sender, EventArgs e)
         {
+            indicator2.Left = ((Control)sender).Left;
+        }
 
+        private void Guide2VaccinesButtn_Click(object sender, EventArgs e)
+        {
+            indicator2.Left = ((Control)sender).Left;
+        }
+
+        private void Guide3ImportanceButtn_Click(object sender, EventArgs e)
+        {
+            indicator2.Left = ((Control)sender).Left;
+        }
+
+        private void Guide4StepsButtn_Click(object sender, EventArgs e)
+        {
+            indicator2.Left = ((Control)sender).Left;
+        }
+
+        private void Guide5AfterButtn_Click(object sender, EventArgs e)
+        {
+            indicator2.Left = ((Control)sender).Left;
         }
     }
 
